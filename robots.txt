@@ -1,0 +1,4 @@
+User-agent: Googlebot	
+Disallow: /demos/
+
+sitemap: http://bigappcompany.com/sitemap.xml
