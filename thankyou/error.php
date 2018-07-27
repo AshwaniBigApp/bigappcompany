@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <?php require('../includes/header-links.php'); ?> 
-    <link rel="stylesheet" href="../externalresources/wp-content/themes/bigappcompany/dist/error.css"/>
+    <link rel="stylesheet" href="../assets/css/error.css"/>
 </head>
 
 <body class="single single-portfolio postid-1557">
@@ -11,7 +11,7 @@
     <div class="sidebar-dimmer"></div>
     <div class="top mobile slice"></div>
     <div class="bottom mobile slice"></div>
-    <header id="masthead" class="single portfolio item site-header" role="banner" style="background-image: url('../externalresources/wp-content/uploads/2016/08/banner-alzhiemers.jpg');background-attachment:fixed;">
+    <header id="masthead" class="single portfolio item site-header" role="banner" style="background-image: url('../assets/images/banner-alzhiemers.jpg');background-attachment:fixed;">
         <div class="ui centered grid text container projectsdetails">
             <div class="sixteen wide mobile fourteen wide tablet ten wide computer center aligned column">
                 <div class="grey box">

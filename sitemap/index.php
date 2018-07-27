@@ -10,7 +10,7 @@
     <div class="sidebar-dimmer"></div>
     <div class="top mobile slice"></div>
     <div class="bottom mobile slice"></div>
-    <header id="masthead" class="default site-header" role="banner" style="background-image: url('../externalresources/wp-content/themes/gdwp/images/masthead.jpg');">
+    <header id="masthead" class="default site-header" role="banner" style="background-image: url('../assets/images/masthead.jpg/masthead.jpg');">
         <div class="ui container center aligned site-branding">
             <h1>Sitemap</h1> </div>
     </header>

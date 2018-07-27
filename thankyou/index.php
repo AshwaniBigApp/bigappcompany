@@ -20,7 +20,7 @@ if(empty($_SESSION['name']))
     <div class="sidebar-dimmer"></div>
     <div class="top mobile slice"></div>
     <div class="bottom mobile slice"></div>
-    <header id="masthead" class="single portfolio item site-header" role="banner" style="background-image: url('../externalresources/wp-content/uploads/2016/08/banner-alzhiemers.jpg');background-attachment:fixed;">
+    <header id="masthead" class="single portfolio item site-header" role="banner" style="background-image: url('../assets/images/banner-alzhiemers.jpg');background-attachment:fixed;">
         <div class="ui centered grid text container projectsdetails">
             <div class="sixteen wide mobile fourteen wide tablet ten wide computer center aligned column">
                 <div class="grey box">
@@ -35,7 +35,9 @@ if(empty($_SESSION['name']))
                 <div class="sixteen wide mobile sixteen wide tablet twelve wide computer item ">
                     <div class="ui relaxed grid block">
                         <div class="top  row">
-                            <div class="sixteen wide mobile five wide tablet five wide computer middle aligned column"> <img src="../bigappcompany-portfolio/spotsoon-retina.png"> </div>
+                            <div class="sixteen wide mobile five wide tablet five wide computer middle aligned column"> 
+                                <img src="../assets/images/bigappcompany-portfolio/spotsoon-retina.png"> 
+                            </div>
                             <div class="sixteen wide mobile eleven wide tablet eleven wide computer middle aligned column">
                                 <h2 class="accent-bar">BigApp Company</h2>
                                    <h2 class="thankyoumessage"> We appreciate you contacting us. We try to respond as soon as possible, so one of our Customer Service colleagues will get back to you within a few hours.<br/>

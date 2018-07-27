@@ -6,13 +6,7 @@
                 <div role="form" class="wpcf7" id="wpcf7-f90-o1" lang="en-US" dir="ltr">
                     <div class="screen-reader-response"></div>
                     <form action="<?=base_url?>mail/contact_me.php" method="post" class="wpcf7-form">
-                        <!--<div style="display: none;">
-                            <input type="hidden" name="_wpcf7" value="90" />
-                            <input type="hidden" name="_wpcf7_version" value="4.5" />
-                            <input type="hidden" name="_wpcf7_locale" value="en_US" />
-                            <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f90-o1" />
-                            <input type="hidden" name="_wpnonce" value="3677ef55fc" /> 
-                        </div>-->
+                     
                         <div class="field"> 
                             <span class="wpcf7-form-control-wrap full-name">
                                 <input type="text" name="name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Full Name*" required/>

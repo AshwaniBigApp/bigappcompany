@@ -8,7 +8,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="logo">
                     <a href="<?=base_url?>">
                       <!-- <span>BigApp</span>  Company-->
-                        <img src="<?=base_url?>wp-content/logo.png" />
+                        <img src="<?=base_url?>assets/images/logo.png" />
                     </a>
                 </div>
                 <nav id="primary-menu" class="desktop links menu">
@@ -17,7 +17,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <li id="menu-item-57" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-57"><a href="<?=base_url?>#services-section">Services</a></li>
                         <li id="menu-item-512" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-512"><a href="<?=base_url?>portfolio">Portfolio</a></li>
                         <li id="menu-item-53" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-53"><a href="<?=base_url?>aboutus">About Us</a></li> 
-                        <!--li id="menu-item-53" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-53"><a href="http://blog.bigappcompany.com/" target="_blank">Blog</a></li-->
                         <li id="menu-item-53" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-53"><a href="https://www.secureserver.net/?prog_id=525039" target="_blank">Buy Domain & Hosting</a></li>
                         <li id="menu-item-107" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-107"><a href="<?=base_url?>blog/index.php" target="_blank">Blog</a></li>
                         <li id="menu-item-55" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-55"><a href="<?=base_url?>contact">Get In Touch</a></li>

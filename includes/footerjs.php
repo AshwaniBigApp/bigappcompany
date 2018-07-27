@@ -1,9 +1,8 @@
-<link rel='stylesheet' id='contact-form-7-css' href='<?=base_url?>externalresources/wp-content/plugins/contact-form-7/includes/css/styles11b8.css' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css' href='<?=base_url?>assets/css/styles11b8.css' type='text/css' media='all' />
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 
-<script type='text/javascript' src='<?=base_url?>externalresources/wp-includes/js/jquery/jqueryb8ff.js'></script>
-<script type='text/javascript' src='<?=base_url?>externalresources/wp-includes/js/jquery/jquery-migrate.min330a.js'></script>
-<!--<script type='text/javascript' src='<?=base_url?>externalresources/wp-content/plugins/svg-support/js/min/svg-inline-min8a54.js'></script>-->
+<script type='text/javascript' src='<?=base_url?>assets/js/jqueryb8ff.js'></script>
+<script type='text/javascript' src='<?=base_url?>assets/js/jquery-migrate.min330a.js'></script>
 <script type="text/javascript">
     jQuery(document).ready(function() {
         jQuery(".open-quickform h4").click(function() {
@@ -198,11 +197,8 @@
 
 </script>
 
-<script type='text/javascript' src='<?=base_url?>externalresources/wp-content/themes/bigappcompany/dist/scripts.min4a7d.js'></script>
-<script type='text/javascript' src='<?=base_url?>externalresources/wp-includes/js/wp-embed.min1c9b.js'></script>
-<!--<script type='text/javascript' src='<?=base_url?>externalresources/wp-content/plugins/twitget/js/moment1c9b.js'></script>-->
-<!-- <script type='text/javascript' src='<?=base_url?>externalresources/wp-content/plugins/twitget/js/langs.min1c9b.js'></script>-->
-<!--Start of Zendesk Chat Script-->
+<script type='text/javascript' src='<?=base_url?>assets/js/scripts.min4a7d.js'></script>
+<script type='text/javascript' src='<?=base_url?>assets/js/wp-embed.min1c9b.js'></script>
 <script type="text/javascript">
     window.$zopim || (function (d, s) {
         var z = $zopim = function (c) {
@@ -225,12 +221,3 @@
         e.parentNode.insertBefore($, e)
     })(document, "script");
 </script>
-<!--End of Zendesk Chat Script-->
-
-
-<!--
-<script type="text/javascript">
-var $zoho= $zoho || {salesiq:{values:{},ready:function(){}}};var d=document;s=d.createElement("script");s.type="text/javascript";
-s.defer=true;s.src="https://salesiq.zoho.com/personal9599/float.ls?embedname=personal9599";
-t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);
-</script>-->

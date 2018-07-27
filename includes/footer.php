@@ -50,11 +50,11 @@
             <div class="mobile only social links dropdown column">
                 <h5 class="title">Follow Us</h5>
                 <div class="content">
-                    <a href="https://www.facebook.com/BigAppCompany/"><i class="facebook icon"></i></a>
-                    <a href="http://twitter.com/"><i class="twitter icon"></i></a>
-                    <a href="https://www.linkedin.com/company/bigappcompany"><i class="linkedin icon"></i></a>
-                    <a href="https://plus.google.com/"><i class="google plus icon"></i></a>
-                    <a href="https://www.pinterest.com/"><i class="pinterest icon"></i></a>
+                    <a href="https://www.facebook.com/BigAppCompany/" target="_blank"><i class="facebook icon"></i></a>
+                    <a href="http://twitter.com/"  target="_blank"><i class="twitter icon"></i></a>
+                    <a href="https://www.linkedin.com/company/bigappcompany"  target="_blank"><i class="linkedin icon"></i></a>
+                    <a href="https://plus.google.com/"  target="_blank"><i class="google plus icon"></i></a>
+                    <a href="https://www.pinterest.com/"  target="_blank"><i class="pinterest icon"></i></a>
                 </div>
             </div>
             <div class="six wide column">
@@ -101,8 +101,13 @@
 
                 </script> BigApp Technologies Pvt Ltd </div>
             <div class="four wide center aligned column small bottom-middle-links"> <a href="<?=base_url?>sitemap/index.php">Sitemap</a>
-                <!--&#9679; <a href="privacy-policy/index.php">Privacy Policy</a> --></div>
-            <div class=" tablet only computer only six wide right aligned column"> <a href="https://www.facebook.com/BigAppCompany/"><i class="facebook icon"></i></a> <a href="http://twitter.com/"><i class="twitter icon"></i></a> <a href="https://www.linkedin.com/company/bigappcompany"><i class="linkedin icon"></i></a> <a href="https://plus.google.com/"><i class="google plus icon"></i></a> </div>
+           </div>
+            <div class=" tablet only computer only six wide right aligned column"> 
+                <a href="https://www.facebook.com/BigAppCompany/"  target="_blank"><i class="facebook icon"></i></a> 
+                <a href="http://twitter.com/"  target="_blank"><i class="twitter icon"></i></a> 
+                <a href="https://www.linkedin.com/company/bigappcompany"  target="_blank"><i class="linkedin icon"></i></a> 
+                <a href="https://plus.google.com/"  target="_blank"><i class="google plus icon"></i></a> 
+            </div>
         </div>
         <div class="row">
             <div class="sslcertificate">

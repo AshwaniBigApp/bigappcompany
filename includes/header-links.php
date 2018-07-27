@@ -3,14 +3,14 @@
 <meta Content-Type: text/html; charset=UTF-8>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
 <link rel="alternate" href="http://bigappcompany.com/" hreflang="en-us" />
-<link rel="shortcut icon" href="<?=base_url?>externalresources/wp-content/themes/bigappcompany/favicon.ico" />
+<link rel="shortcut icon" href="<?=base_url?>assets/images/favicon.ico" />
 <link rel="profile" href="http://bigappcompany.com/">
 <link rel="pingback" href="bigappcompany.com">
 <title>App Design & Web Design Company in Bangalore</title>
 <meta name="description" content="BigAppCompany is Best Web Design Company in Bangalore, Best App Design Company in Bangalore, E Commerce Design & ERP Solution Company in Bangalore.  " />
 <meta name="keywords" content="Web Design, Website Development, App Design, App Development, E Commerce Design, E Commerce Development, ERP Solutions, Web based Applications, BigAppCompany." />
 <meta name="author" content="BigApp Company" />
-<link rel='stylesheet' id='bigappcompany-style-css' href='<?=base_url?>externalresources/wp-content/themes/bigappcompany/dist/styles.min1c9b.css' type='text/css' media='all' />
+<link rel='stylesheet' id='bigappcompany-style-css' href='<?=base_url?>assets/css/styles.min1c9b.css' type='text/css' media='all' />
 
 <!-- Facebook Pixel Code -->
 <script>
@@ -25,8 +25,6 @@ fbq('track', 'PageView');
 <noscript><img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=1547247661974214&ev=PageView&noscript=1"
 /></noscript>
-<!-- DO NOT MODIFY -->
-<!-- End Facebook Pixel Code -->
 
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':

@@ -12,7 +12,7 @@
     <div class="sidebar-dimmer"></div>
     <div class="top mobile slice"></div>
     <div class="bottom mobile slice"></div>
-    <header id="masthead" class="contact-page site-header" role="banner" style="background-image: url('../externalresources/wp-content/uploads/2016/07/Contact-Page.jpg');">
+    <header id="masthead" class="contact-page site-header" role="banner" style="background-image: url('../assets/images/Contact-Page.jpg');">
         <div class="ui stackable grid container center-align-items">
             <div class="row">
                 <div class="column center-align">
@@ -31,7 +31,7 @@
                     <div class="address-container">
                         <div class="map" id="london-map1">
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.1347535254404!2d77.57520851430489!3d13.027089617184181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae17c441e5117d%3A0xd51a6649a3c5777c!2sBigAppCompany!5e0!3m2!1sen!2sin!4v1487607592702"  width="100%" height="250" frameborder="0" style="border:0" title="BigApp Company" allowfullscreen></iframe>
-<!--                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.9684223203317!2d77.57200981482268!3d13.037681990812551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae17e890697441%3A0xc5c55194ea4f028a!2sBigAppCompany!5e0!3m2!1sen!2sin!4v1474272077168" width="100%" height="250" frameborder="0" style="border:0" title="BigApp Company" allowfullscreen></iframe>-->
+
                         </div>
                         <div class="address">
                             <h5 class="accent-bar">

@@ -11,10 +11,10 @@
     <div class="sidebar-dimmer"></div>
     <div class="top mobile slice"></div>
     <div class="bottom mobile slice"></div>
-    <header id="masthead" class="studio-page site-header" role="banner" style="background-image: url('../externalresources/wp-content/uploads/2016/07/studio4.jpg');">
+    <header id="masthead" class="studio-page site-header" role="banner" style="background-image: url('../assets/images/studio4.jpg');">
         <div class="ui container center aligned site-branding">
             <h1>Our Blogs</h1>
-            <!--<h1 class="normal-weight">See our passion in action</h1> </div>-->
+        </div>
     </header>
     <div id="content" class="site-content">
         <div id="blog-page">
