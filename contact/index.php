@@ -37,10 +37,10 @@
                             <h5 class="accent-bar">
 <i class="marker icon"></i>Bangalore Office</h5>
                             <ul>
-                            <li>#4/80, 1st Floor, </li>
-                            <li>Above IDBI Bank, 80 Feet Road,</li>
-                            <li>Ashwath Nagar, SanjayNagar,</li>
-                            <li>Bengaluru - 560094, Karnataka</li>                       
+                           <li>No.5/A, R.K. Plaza, 3rd Floor,</li>
+                        <li>80 Feet Road, </li>
+                        <li>Dollars Colony, Ashwath Nagar, </li>
+                        <li>Bangalore - 560094, Karnataka </li>                       
                             <li>Phone: <a href="callto:+91 95354 22200">+91 95354 22200</a> / <a href="callto:+918884144444">+91 88841 44444</a></li>                
                             <li><a href="mailto:support@bigappcompany.com">support@bigappcompany.com</a></li>  
                         </ul>

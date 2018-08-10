@@ -33,7 +33,7 @@
                 <div class="home-banner-form">
                     <form class="contactform homecontactform" id="contactform">
                         <input type="hidden" name="from_email" value="no-reply@spotsoon.com">
-                        <input type="hidden" name="to_email" value="support@bigappcompany.com.test-google-a.com">
+                   <input type="hidden" name="to_email" value="support@bigappcompany.com.test-google-a.com">
                         <input type="hidden" name="to_cc" value="">
                         <input type="hidden" name="subject" value="BigAppCompany Client Enquiry (Home Page Leads)">
                         <div class="form-group block">
@@ -49,6 +49,7 @@
                             <button class=" lightbg whitecolor btn-lg btn-block btn  btn-default" id="sendmessage">Send Message</button>
                         </div>
                     </form>
+                    
                     <form class="homecontactform " style="display:none;" action="mail/contact_me_home.php" method="post" onsubmit="return validation();">
                         <div class="form-group block">
                             <input type="text" placeholder="*Name" class="form-control" name="name" id="text_name" /> </div>
@@ -62,6 +63,7 @@
                         <div class="form-group block">
                             <input type="submit" class="btn  btn-default" name="Enquiry" value="Enquire Now" /> </div>
                     </form>
+                    
                 </div>
             </div>
         </header>

@@ -116,7 +116,7 @@
         fdata.append("product_name", jQuery("#contactform").serialize());
         jQuery.ajax({
             type: 'POST',
-            url: "https://bigappcompany.com/cms/contact",
+            url: "https://bigappcompany.co.in/demos/cms/contact",
             data: fdata,
             contentType: false,
             processData: false,
@@ -179,7 +179,7 @@
         fdata.append("product_name", jQuery("#contactform1").serialize());
         jQuery.ajax({
             type: 'POST',
-            url: "https://bigappcompany.com/cms/contact",
+            url: "https://bigappcompany.co.in/demos/cms/contact",
             data: fdata,
             contentType: false,
             processData: false,
