@@ -1,0 +1,93 @@
+.hero {
+    margin-top: 100px;
+    .intro {
+        .text-col {
+            h1 {
+                font-size: 80px;
+                font-weight: bold;
+                line-height: 1.2;
+                color: red;
+                -webkit-animation-name: example;
+                /* Safari 4.0 - 8.0 */
+                -webkit-animation-duration: 60s;
+                /* Safari 4.0 - 8.0 */
+                animation-name: example;
+                animation-duration: 10s;
+                animation-iteration-count: infinite;
+            }
+        }
+        .text {
+            p {
+                font-size: 22px;
+                line-height: 1.5;
+                color: #000;
+                opacity: 0.8;
+            }
+        }
+    }
+}
+
+.carousel {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    height:800px;
+    .carousel-inner {
+        width: 100%;
+        height: auto;
+    }
+    .carousel-item {
+        position: relative;
+        img {
+            width: 100%;
+            height: auto;
+        }
+        .carousel-caption {
+            position: absolute;
+            top: 35%;
+            left: 20%;
+            h2 {
+                font-size: 100px;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+@-webkit-keyframes example {
+    0% {
+        color: #64CEF6;
+    }
+    25% {
+        color: #FBC229;
+    }
+    50% {
+        color: #B9D145;
+    }
+    75% {
+        color: #434343;
+    }
+    100% {
+        color: #E08455;
+    }
+}
+
+@keyframes example {
+    0% {
+        color: #64CEF6;
+    }
+    25% {
+        color: #FBC229;
+    }
+    50% {
+        color: #B9D145;
+    }
+    75% {
+        color: #434343;
+    }
+    100% {
+        color: #E08455;
+    }
+}
+
+
+
