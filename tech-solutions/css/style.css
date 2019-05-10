@@ -11330,3 +11330,6 @@ width: 100%;     */
     i {
         margin-right: 3px;
     }
+    .get-started-phone .error-phone-tooltip{
+		height:auto;
+	}

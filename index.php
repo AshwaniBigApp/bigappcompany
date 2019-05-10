@@ -33,9 +33,9 @@
                 <div class="home-banner-form">
                     <form class="contactform homecontactform" id="contactform">
                         <input type="hidden" name="from_email" value="no-reply@spotsoon.com">
-<!--                        <input type="hidden" name="to_email" value="support@bigappcompany.com.test-google-a.com">-->
-                        <input type="hidden" name="to_email" value="rakesh@sptosoon.com">
-                        <input type="hidden" name="to_cc" value="rajkumar@bigdigitalmarketers.com">
+                        <input type="hidden" name="to_email" value="support@bigappcompany.com.test-google-a.com">
+                    
+                        <input type="hidden" name="to_cc" value="rakesh@sptosoon.com">
                         <input type="hidden" name="subject" value="BigAppCompany Client Enquiry (Home Page Leads)">
                         <div class="form-group block">
                             <input type="text" placeholder="*Name" class="form-control transition" name="name" id="text_name"> </div>

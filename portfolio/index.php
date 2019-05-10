@@ -55,6 +55,7 @@
                             </div>
                             </a>
                     </div>
+<!--
                     <div class="column">
                         <a href="http://www.horizonsofttechinc.com/" target="_blank">
                         <div class="item" style="background-image: url('../assets/images/bigappcompany-portfolio/horizonsofttechinc.jpg');background-size: 100% 100%;     ;background-position: center top;">
@@ -62,6 +63,7 @@
                             </div>
                             </a>
                     </div>
+-->
                     <div class="column">
                         <a href="http://whyteapp.com/" target="_blank">
                         <div class="item" style="background-image: url('../assets/images/bigappcompany-portfolio/whyteapp.jpg');background-size: 100% 100%;     ;background-position: center top;">
@@ -176,13 +178,14 @@
                         </div>
                             </a>
                     </div>
-                    <div class="column">
+                  <!--  <div class="column">
                         <a href="http://bigappcompany.co.in/demos/quicktimeloans/" target="_blank">
                         <div class="item" style="background-image: url('../assets/images/bigappcompany-portfolio/quick-time-loans.jpg');background-size: 100% 100%      ;background-position: center top;">
                             <div class="hover"> <span class="title">Quick Time Loans</span> <span class="">View Website <i class="fa fa-angle-right"></i></span> </div>
                         </div>
                             </a>
                     </div>
+
                     <div class="column">
                         <a  href="http://www.acharyabbs.com/" target="_blank">
                         <div class="item" style="background-image: url('../assets/images/bigappcompany-portfolio/acharyaabbs.jpg');background-size: 100% 100%      ;background-position: center top;">
@@ -190,6 +193,7 @@
                         </div>
                             </a>
                     </div>
+-->
 
             
                         <div class="column">
@@ -220,6 +224,7 @@
                         </div>
                             </a>
                     </div>
+<!--
                     <div class="column">
                         <a href="http://bigappcompany.co.in/demos/avgates/avgates/index.html" target="_blank">
                         <div class="item" style="background-image: url('../assets/images/bigappcompany-portfolio/avgates.jpg');background-size: 100% 100%      ;background-position: center top;">
@@ -227,6 +232,7 @@
                         </div>
                             </a>
                     </div>  
+-->
                     <div class="column">
                         <a  href="http://bigappcompany.co.in/demos/alphastreet/" target="_blank">
                         <div class="item" style="background-image: url('../assets/images/bigappcompany-portfolio/alphastreet.jpg');background-size: 100% 100%      ;background-position: center top;">
@@ -271,6 +277,7 @@
                         </div>
                              </a>
                     </div>
+<!--
                     <div class="column">
                         <a  href="http://bigappcompany.co.in/demos/creativekidacademy/"  target="_blank">
                         <div class="item" style="background-image: url('../assets/images/bigappcompany-portfolio/creative-kidz-academy.jpg');background-size: 100% 100%      ;background-position: center top;">
@@ -278,6 +285,7 @@
                         </div>
                             </a>
                     </div>
+-->
                     
                     <div class="column">
                         <a   href="https://www.cashurcell.com/"  target="_blank">
@@ -382,6 +390,7 @@
                         </div>
                             </a>
                     </div>
+<!--
                     <div class="column">
                         <a  href="http://cambridgegroupofinstitutions.com/" target="_blank">
                         <div class="item" style="background-image: url('../assets/images/bigappcompany-portfolio/cambridgegroupofinstitutions.jpg');background-size: 100% 100%;background-position: center center;">
@@ -389,6 +398,7 @@
                         </div>
                             </a>
                     </div>
+-->
                   
                     <div class="column">
                         <a  href="http://attitudedanceacademy.in/" target="_blank">
@@ -406,6 +416,7 @@
                             </a>
                     </div>
 
+<!--
                     <div class="column">
                         <a  href="http://gicpump.com/" target="_blank">
                         <div class="item" style="background-image: url('../assets/images/bigappcompany-portfolio/gicpump.jpg');background-size: 100% 100%;background-position: center center;">
@@ -413,6 +424,7 @@
                         </div>
                             </a>
                     </div>
+-->
                     <div class="column">
                         <a  href="http://www.raghmohan.com/"  target="_blank">
                         <div class="item" style="background-image: url('../assets/images/bigappcompany-portfolio/ragmohan.jpg');background-size: 100% 100%;background-position: center center;">
@@ -427,6 +439,7 @@
                         </div>
                             </a>
                     </div> 
+<!--
                     <div class="column">
                         <a href="http://www.rusticcharmwayanad.com/"  target="_blank">
                         <div class="item" style="background-image: url('../assets/images/bigappcompany-portfolio/Zayatha.jpg');background-size: 100% 100%;background-position: center center;">
@@ -434,6 +447,7 @@
                         </div>
                             </a>
                     </div>
+-->
                      <div class="column">
                          <a href="http://estah.org/" target="_blank">
                         <div class="item" style="background-image: url('../assets/images/bigappcompany-portfolio/estah.jpg');background-size: 100% 100%;background-position: center center;">
@@ -449,6 +463,7 @@
                              </a>
                     </div>
 
+<!--
                     <div class="column">
                         <a href="http://millennialmode.com/" target="_blank">
                         <div class="item" style="background-image: url('../assets/images/bigappcompany-portfolio/millennialmode.jpg');background-size: 100% 100%;     ;background-position: center top;">
@@ -456,6 +471,7 @@
                             </div>
                             </a>
                     </div>
+-->
                     <div class="column">
                         <a  href="spootsoon/index.php" >
                         <div class="item" style="background-image: url('../assets/images/bigappcompany-portfolio/spotsoon-retina.png');background-size: auto 100%;background-repeat:no-repeat;">

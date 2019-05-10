@@ -3,7 +3,7 @@
         <div class="top-bar">
             <ul class="ul">
                 <li><a href="tel:+918884144444"><i class="fa fa-phone" aria-hidden="true"></i>+91 88841 44444 </a></li>
-                <li><a href="skype:support_37466"><i class="fa fa-skype" aria-hidden="true"></i>skypeid</a></li>
+                <li><a href="skype:BigApp Company"><i class="fa fa-skype" aria-hidden="true"></i>skypeid</a></li>
                 <li><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i>support@bigappcompany.com</a></li>
                 <!--
                 <li><a href="#"><i class="fa fa-sign-in" aria-hidden="true"></i>Log In</a></li>

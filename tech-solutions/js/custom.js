@@ -48,7 +48,7 @@ $(document).ready(function () {
             return false;
         }
         else {
-            $(".error-phone-tooltip span").text("Thank you");
+            $(".error-phone-tooltip span").text("Thank you. One of our team members will get back to you very soon.");
             jQuery(".started").removeAttr("disabled");
         }
         var fdata = new FormData()
