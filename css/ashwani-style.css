@@ -2258,7 +2258,7 @@ p {
 .signup .field-input input{
     width:100%;
     border:0;
-    padding: 6px 0 8px;
+    padding: 6px 2px;
     color: #fff;
     font-family: 'Roboto',arial,sans-serif;
     font-weight: 400;
@@ -2327,7 +2327,9 @@ p {
 .lists-skils li{
     list-style-type:circle;
 }
-
+.column .link:hover i,.column .link:hover a {
+    color:#4285f4;
+}
 @media (min-width:577px) and (max-width:767px){
     .text-media{
         text-align: center;
