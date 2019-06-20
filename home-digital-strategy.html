@@ -441,8 +441,16 @@
 <script src="js/slick.min.js" type="text/javascript"></script>
 <script src="js/stellarnav.js" type="text/javascript"></script>
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-<script type="text/javascript">
-    new WOW().init();
+<script src="https://wchat.freshchat.com/js/widget.js"></script>
+    <script type="text/javascript">
+        window.fcWidget.init({
+
+            token: "49c9843d-cebe-450d-b007-2c3e2fda62b8",
+
+            host: "https://wchat.freshchat.com"
+
+        });
+        new WOW().init();
     $('.testi').slick({
         centerMode: true,
         slidesToShow: 3,
