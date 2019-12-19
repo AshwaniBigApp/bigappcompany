@@ -10,7 +10,8 @@
     <meta name="copyright" content="BigAppCompany">
     <meta name="author" content="Ashwani">
     <meta name="web_author" content="BigAppCompany">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <link rel="canonical" href="https://bigappcompany.com/">
     <link rel="shortcut icon" href="seo-assets/image/fav.png" type="image/x-icon">
     <link rel="stylesheet" href="seo-assets/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="seo-assets/css/ashwani-style.css">
@@ -19,7 +20,7 @@
     <link rel="stylesheet" type="text/css" href="seo-assets/css/slick.css">
     <link rel="stylesheet" type="text/css" href="seo-assets/css/slick-theme.css">
     <link rel="stylesheet" href="seo-assets/css/font-awesome/css/font-awesome.min.css" />
-    <style>
+    <style> 
         .modal {
             z-index: 999999 !important;
         }
@@ -53,7 +54,7 @@
             <div class="container-fluid">
                 <ul>
                     <li><a href="tel:+917760511040"><i class="fa fa-phone"></i>+91
-                        7760511040</a></li>
+                            7760511040</a></li>
                     <li><a href="mailto:support@bigappcompany.com"><i class="fa
                                 fa-envelope"></i>
                             support@bigappcompany.com
@@ -737,7 +738,7 @@
                             <ul class="mb-1">
                                 <li><strong>Contact Us</strong></li>
                                 <li><a href="tel:+917760511040" onclick="return false;"><i class="fa fa-phone"></i>+91
-                                    7760511040 </a></li>
+                                        7760511040 </a></li>
                                 <li><a href="mailto:support@bigappcompany.com"><i
                                             class="fa fa-envelope"></i>support@bigappcompany.com</a></li>
                             </ul>
@@ -920,6 +921,33 @@
     <script src="seo-assets/js/bootstrap.min.js"></script>
     <script src="seo-assets/js/owl.carousel.min.js" type="text/javascript"></script>
     <script src="seo-assets/js/slick.min.js" type="text/javascript"></script>
+    <!-- <script src="https://wchat.freshchat.com/js/widget.js"></script> -->
+    <script type="text/javascript">
+        window.fcWidget.init({
+
+            token: "49c9843d-cebe-450d-b007-2c3e2fda62b8",
+
+            host: "https://wchat.freshchat.com"
+
+        });
+        new WOW().init();
+        $('.testi').slick({
+            centerMode: true,
+            slidesToShow: 3,
+            vertical: true
+        });
+        $(document).ready(function () {
+            $("#scrolldown").on('click', function (event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
+                    var hash = this.hash;
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top - 100
+                    }, 800, function () {});
+                }
+            });
+        });
+    </script>
     <script type="text/javascript">
         $('.testi').slick({
             centerMode: true,
@@ -1083,7 +1111,8 @@
                     processData: false,
                     success: function (response) {
                         if (response == 1) {
-                            window.location.href = "thank-you.html";
+                            // window.location.href = "thank-you.html";
+                            console.log(response);
                         } else {
                             alert("Oops! Please Try After Some Time");
 
@@ -1128,8 +1157,10 @@
                     $("#text_number1").parent().children(".error-msg").html("Not a Valid Number");
                     return false;
                 }
-                var fdata = new FormData()
+                var fdata = new FormData();
+                console.log(fdata);
                 fdata.append("product_name", $("#contactform1").serialize());
+                console.log(fdata);
                 jQuery.ajax({
                     type: 'POST',
                     url: "https://bigappcompany.co.in/demos/cms/contact",
@@ -1138,6 +1169,7 @@
                     processData: false,
                     success: function (response) {
                         if (response == 1) {
+                            console.log(response);
                             window.location.href = "thank-you.html";
                         } else {
                             alert("Oops! Please Try After Some Time");
@@ -1153,7 +1185,8 @@
                 scrollTop: $("#scroll-top").offset().top
             }, 2000);
         }
-    </script>
+    </script>   
+
 
 </body>
 

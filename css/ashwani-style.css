@@ -131,7 +131,7 @@ ul.ul-bullets1 {
 
 ul.ul-bullets1 li {
     padding-bottom: 15px;
-    color:#848484;
+    color: #848484;
     font-weight: 300;
 }
 
@@ -1081,19 +1081,22 @@ p {
     -webkit-transform: translateY(-1px);
     transform: translateY(-1px);
 }
+
 .logo-box {
     text-align: center;
-border: 1px solid #a5a5a554;
-height: 150px;
-width: 150px;
-vertical-align: middle;
-line-height: 150px;
-background-color: #fff;
+    border: 1px solid #a5a5a554;
+    height: 150px;
+    width: 150px;
+    vertical-align: middle;
+    line-height: 150px;
+    background-color: #fff;
 }
-.logo-box img{
+
+.logo-box img {
     max-width: 60%;
-vertical-align: middle;
+    vertical-align: middle;
 }
+
 .category-box {
     text-align: center;
     border: 1px solid #a5a5a554;
@@ -1955,37 +1958,44 @@ input[type=file]::-webkit-file-upload-button {
 .social.github {
     background-image: url("../image/github.svg");
 }
+
 .image-card {
     background: #f6f6f6;
     min-height: 320px;
-    margin-bottom:20px;
+    margin-bottom: 20px;
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: 80% auto;
 }
-.image-card.square{
-    width:100%;
-    min-height:200px;
+
+.image-card.square {
+    width: 100%;
+    min-height: 200px;
     background-position: center center;
     background-size: cover;
 }
-.team-box{
-    text-align:center;
+
+.team-box {
+    text-align: center;
 }
-.iframe-hover{
-    border:0;
-    width:100%;
-    height:200px;
-    margin-bottom:20px;
-     vertical-align: top;
+
+.iframe-hover {
+    border: 0;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+    vertical-align: top;
 }
-.team-box h4{
-    margin-bottom:10px;
-    color:#444;
+
+.team-box h4 {
+    margin-bottom: 10px;
+    color: #444;
 }
-.team-box h6{
-    margin-bottom:15px;
+
+.team-box h6 {
+    margin-bottom: 15px;
 }
+
 .web-card {
     background: #f6f6f6;
     padding: 30px 25px 45px;
@@ -3339,6 +3349,10 @@ input[type=file]::-webkit-file-upload-button {
 /* vishwa css */
 .hero {
     margin-top: 100px
+}
+
+.frame {
+    width: 100%;
 }
 
 .hero .intro .text-col h1 {
