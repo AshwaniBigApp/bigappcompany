@@ -158,15 +158,15 @@
                             <div class="col-md-6">
                                 <div class="form-group website-d d-none">
                                     <label>Budget</label>
-                                    <select name="budget" class="form-control input-field">
-                                        <option value="">Select budget</option>
+                                    <select name="budget" class="form-control input-field budget">
+                                        <!-- <option value="">Select budget</option>
                                         <option value="100000above">1,00,000 and above</option>
                                         <option value="50KTo1L">50,000 - 1,00,000</option>
                                         <option value="30KTo50K">30,000 - 50,000</option>
-                                        <option value="30000">Less than 30,000</option>
+                                        <option value="30000">Less than 30,000</option> -->
                                     </select>
                                 </div>
-                                <div class="form-group d-none app-d">
+                                <!-- <div class="form-group d-none app-d">
                                     <label>Budget</label>
                                     <select name="budget" class="form-control input-field">
                                         <option value="">Select budget</option>
@@ -202,7 +202,7 @@
                                         <option value="1LTo3L">1,00,000 - 3,00,000</option>
                                         <option value="30KTo1L">30,000 - 1,00,000</option>
                                     </select>
-                                </div>
+                                </div> -->
                             </div>
                             <div class="col-md-12">
                                 <div class="form-group">
@@ -836,15 +836,15 @@
                                     <div class="col-md-6">
                                         <div class="form-group website-d d-none">
                                             <label>Budget</label>
-                                            <select name="budget" class="form-control input-field">
-                                                <option value="">Select budget</option>
+                                            <select name="budget" class="form-control input-field budget">
+                                                <!-- <option value="">Select budget</option>
                                                 <option value="100000above">1,00,000 and above</option>
                                                 <option value="50KTo1L">50,000 - 1,00,000</option>
                                                 <option value="30KTo50K">30,000 - 50,000</option>
-                                                <option value="30000">Less than 30,000</option>
+                                                <option value="30000">Less than 30,000</option> -->
                                             </select>
                                         </div>
-                                        <div class="form-group d-none app-d">
+                                        <!-- <div class="form-group d-none app-d">
                                             <label>Budget</label>
                                             <select name="budget" class="form-control input-field">
                                                 <option value="">Select budget</option>
@@ -880,7 +880,7 @@
                                                 <option value="1LTo3L">1,00,000 - 3,00,000</option>
                                                 <option value="30KTo1L">30,000 - 1,00,000</option>
                                             </select>
-                                        </div>
+                                        </div> -->
                                     </div>
                                 </div>
                                 <div class="form-group">
@@ -1011,18 +1011,66 @@
                 }
                 if (target == "WebsiteDevelopment" || target == "DynamicWebsite") {
                     $(this).parent().parent().next().children(".website-d").removeClass("d-none");
+                    $('.budget option').remove();
+                    $('.budget').append(
+                        `
+                        <option value="">Select budget</option>
+                        <option value="100000above">1,00,000 and above</option>
+                        <option value="50KTo1L">50,000 - 1,00,000</option>
+                        <option value="30KTo50K">30,000 - 50,000</option>
+                        <option value="30000">Less than 30,000</option>
+                        `
+                    )
                 }
                 if (target == "MobileApp") {
-                    $(this).parent().parent().next().children(".app-d").removeClass("d-none");
+                    $(this).parent().parent().next().children(".website-d").removeClass("d-none");
+                    $('.budget option').remove();
+                    $('.budget').append(
+                        `
+                        <option value="">Select budget</option>
+                        <option value="500000above">5,00,000 and above</option>
+                        <option value="3LTo5L">3,00,000 - 5,00,000</option>
+                        <option value="1LTo3L">2,00,000 - 3,00,000</option> 
+                        `
+                    )
+
                 }
                 if (target == "eCommerceWebsite") {
-                    $(this).parent().parent().next().children(".ecom-d").removeClass("d-none");
+                    $(this).parent().parent().next().children(".website-d").removeClass("d-none");
+                    $('.budget option').remove();
+                    $('.budget').append(
+                        `
+                        <option value="">Select budget</option>
+                        <option value="300000above">3,00,000 and above</option>
+                        <option value="1LTo3L">1,00,000 - 3,00,000</option>
+                        <option value="50KTo1L">50,000 - 1,00,000</option>
+                        `
+                    )
                 }
                 if (target == "CustomSoftware" || target == "ERPSolution") {
-                    $(this).parent().parent().next().children(".cust-d").removeClass("d-none");
+                    $(this).parent().parent().next().children(".website-d").removeClass("d-none");
+                    $('.budget option').remove();
+                    $('.budget').append(
+                        `
+                        <option value="">Select budget</option>
+                        <option value="500000above">5,00,000 and above</option>
+                        <option value="3LTo5L">3,00,000 - 5,00,000</option>
+                        <option value="1LTo3L">1,00,000 - 3,00,000</option> 
+                        `
+                    )
                 }
                 if (target == "Others") {
-                    $(this).parent().parent().next().children(".other-d").removeClass("d-none");
+                    $(this).parent().parent().next().children(".website-d").removeClass("d-none");
+                    $('.budget option').remove();
+                    $('.budget').append(
+                        `
+                        <option value="">Select budget</option>
+                        <option value="500000above">5,00,000 and above</option>
+                        <option value="3LTo5L">3,00,000 - 5,00,000</option>
+                        <option value="1LTo3L">1,00,000 - 3,00,000</option>
+                        <option value="30KTo1L">30,000 - 1,00,000</option>
+                        `
+                    )
                 }
             });
             $(".service-d1 select").change(function () {
@@ -1033,18 +1081,53 @@
                 }
                 if (target == "WebsiteDevelopment" || target == "DynamicWebsite") {
                     $(this).parent().parent().next().children(".website-d").removeClass("d-none");
+                    $('.budget option').remove();
+                    $('.budget').append(`
+                    <option value="">Select budget</option>
+                    <option value="100000above">1,00,000 and above</option>
+                    <option value="50KTo1L">50,000 - 1,00,000</option>
+                    <option value="30KTo50K">30,000 - 50,000</option>
+                    <option value="30000">Less than 30,000</option>`);
                 }
                 if (target == "MobileApp") {
-                    $(this).parent().parent().next().children(".app-d").removeClass("d-none");
+                    $(this).parent().parent().next().children(".website-d").removeClass("d-none");
+                    $('.budget option').remove();
+                    $('.budget').append(`
+                    <option value="">Select budget</option>
+                    <option value="500000above">5,00,000 and above</option>
+                    <option value="3LTo5L">3,00,000 - 5,00,000</option>
+                    <option value="2LTo3L">2,00,000 - 3,00,000</option>`);
                 }
                 if (target == "eCommerceWebsite") {
-                    $(this).parent().parent().next().children(".ecom-d").removeClass("d-none");
+                    $(this).parent().parent().next().children(".website-d").removeClass("d-none");
+                    $('.budget option').remove();
+                    $('.budget').append(`
+                    <option value="">Select budget</option>
+                    <option value="300000above">3,00,000 and above</option>
+                    <option value="1LTo3L">1,00,000 - 3,00,000</option>
+                    <option value="50KTo1L">50,000 - 1,00,000</option>
+                    `);
                 }
                 if (target == "CustomSoftware" || target == "ERPSolution") {
-                    $(this).parent().parent().next().children(".cust-d").removeClass("d-none");
+                    $(this).parent().parent().next().children(".website-d").removeClass("d-none");
+                    $('.budget option').remove();
+                    $('.budget').append(`
+                    <option value="">Select budget</option>
+                    <option value="500000above">5,00,000 and above</option>
+                    <option value="3LTo5L">3,00,000 - 5,00,000</option>
+                    <option value="1LTo3L">1,00,000 - 3,00,000</option>
+                    `);
                 }
                 if (target == "Others") {
-                    $(this).parent().parent().next().children(".other-d").removeClass("d-none");
+                    $(this).parent().parent().next().children(".website-d").removeClass("d-none");
+                    $('.budget option').remove();
+                    $('.budget').append(`
+                    <option value="">Select budget</option>
+                    <option value="500000above">5,00,000 and above</option>
+                    <option value="3LTo5L">3,00,000 - 5,00,000</option>
+                    <option value="1LTo3L">1,00,000 - 3,00,000</option>
+                    <option value="30KTo1L">30,000 - 1,00,000</option>
+                    `);
                 }
             });
             $("#sendmessage").click(function (e) {
