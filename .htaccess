@@ -1,14 +1,6 @@
 # remove html file extension-e.g. https://example.com/file.html will become https://example.com/file
 RewriteEngine on 
 
-RewriteCond %{HTTP_HOST} ^bigappcompany.com|www.bigappcompany.com [NC]
-RewriteCond %{SERVER_PORT} 80
-RewriteRule ^(.*)$ https://bigappcompany.com/$1 [R,L]
-
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}\.html -f
-RewriteRule ^(.*)$ $1.html [NC,L]
-
 <IfModule mod_deflate.c>
   # Compress HTML, CSS, JavaScript, Text, XML and fonts
   AddOutputFilterByType DEFLATE application/javascript
@@ -58,3 +50,4 @@ RewriteRule ^(.*)$ $1.html [NC,L]
   ExpiresByType application/pdf "access plus 1 month"
   ExpiresByType application/x-shockwave-flash "access plus 1 month"
 </IfModule>
+
