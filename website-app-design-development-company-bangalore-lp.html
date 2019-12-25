@@ -380,7 +380,7 @@
                             build customized E-commerce software as per your business needs. BigApp can provide
                             everything you need to sell online.</p>
                         <div class="readmore text-right">
-                            <a href="#">
+                            <a href="javascript:void(0)" onclick="return goto2();">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                     <path d="M0 0h24v24H0z" fill="none" />
                                     <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z" /></svg>
@@ -400,7 +400,7 @@
                         <p class="py-3">BigApp is a Deloitte award-winning design and development company, delivering
                             static and dynamic sites. We build a world-class website for an affordable cost.</p>
                         <div class="readmore text-right">
-                            <a href="#">
+                            <a href="javascript:void(0)" onclick="return goto2();">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                     <path d="M0 0h24v24H0z" fill="none" />
                                     <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z" /></svg>
@@ -416,7 +416,7 @@
                             scalable and interactive mobile applications across the world with 100% efficient services.
                         </p>
                         <div class="readmore text-right">
-                            <a href="#">
+                            <a href="javascript:void(0)" onclick="return goto2();">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                     <path d="M0 0h24v24H0z" fill="none" />
                                     <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z" /></svg>
@@ -436,7 +436,7 @@
                             building a credible brand identity involves the right mix of logo, themes, colors, and
                             decor.</p>
                         <div class="readmore text-right">
-                            <a href="#">
+                            <a href="javascript:void(0)" onclick="return goto2();">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                     <path d="M0 0h24v24H0z" fill="none" />
                                     <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z" /></svg>
@@ -1418,6 +1418,12 @@
         function goto() {
             $('html, body').animate({
                 scrollTop: $("#scroll-top").offset().top
+            }, 2000);
+        }
+
+        function goto2() {
+            $('html, body').animate({
+                scrollTop: $("#scroll-top").offset().top -200
             }, 2000);
         }
     </script>
