@@ -198,6 +198,16 @@ p {
     font-weight: 300;
 }
 
+.last-bullets li a{
+    color:#848484;
+    font-size: 12px;
+}
+
+
+.last-bullets{
+    margin-top:50px;
+}
+
 .sticky-top {
     top: 100px;
 }
