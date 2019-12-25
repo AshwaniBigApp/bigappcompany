@@ -391,6 +391,7 @@ p {
 
 .home-banner {
     background: #fff;
+    /* background-image: url("../image/backbanner.png"); */
     margin-top: 100px;
 }
 
