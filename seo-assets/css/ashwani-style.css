@@ -87,7 +87,7 @@ body {
 }
 
 html {
-    scroll-behavior: smooth;    
+    scroll-behavior: smooth;
 }
 
 a,
@@ -172,6 +172,14 @@ h6 {
     letter-spacing: .5px;
     color: #848484;
     font-weight: 400
+}
+
+.form-control {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
 }
 
 .rotate-x {
