@@ -111,69 +111,19 @@
         <div class="resp-menu hide">
             <ul>
                 <li>
-                    <a href="services.html">Services</a>
-                    <button class="drop-menu"><img src="image/menu-drop.svg" alt="" /></button>
-                    <ul class="hide">
-                        <li>
-                            <div class="without-a">Define Strategies</div>
-                            <button class="drop-menu"><img src="image/menu-drop.svg" alt="" /></button>
-                            <ul class="hide">
-                                <li><a href="digital-transformation-consulting.html">Digital Transformation
-                                        Consulting</a></li>
-                                <li><a href="innovation-workshops.html">Innovation Workshops</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <div class="without-a">Create Experiences</div>
-                            <button class="drop-menu"><img src="image/menu-drop.svg" alt="" /></button>
-                            <ul class="hide">
-                                <li><a href="website-design.html">Website Design</a></li>
-                                <li><a href="app-design.html">App Design</a></li>
-                                <li><a href="ecommerce-website-design.html">eCommerce</a></li>
-                                <li><a href="logo-and-branding.html">Logos + Visual Identity</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <div class="without-a">Deliver Platforms</div>
-                            <button class="drop-menu"><img src="image/menu-drop.svg" alt="" /></button>
-                            <ul class="hide">
-                                <li><a href="technology-architecture.html">Technology Architecture</a></li>
-                                <li><a href="website-development.html">Website Development</a></li>
-                                <li><a href="application-development.html">Application Development</a></li>
-                                <!-- <li><a href="enterprise-portal-development.html">Enterprise Portal Development</a></li> -->
-                                <li><a href="app-development.html">App Development</a></li>
-                            </ul>
-                        </li>
-                    </ul>
+                    <a class="hide-menu" href="#services">Services</a>
                 </li>
                 <li>
-                    <div class="without-a">Our Work</div>
-                    <button class="drop-menu"><img src="image/menu-drop.svg" alt="" /></button>
-                    <ul class="hide">
-                        <li><a href="featured-work.html">Featured Work</a></li>
-                    </ul>
+                    <a class="hide-menu" href="#clients">Clients</a>
                 </li>
                 <li>
-                    <div class="without-a">Clients</div>
-                    <button class="drop-menu"><img src="image/menu-drop.svg" alt="" /></button>
-                    <ul class="hide">
-                        <li><a href="industries-served.html">Industries Served</a></li>
-                    </ul class="hide">
+                    <a class="hide-menu" href="#awards">Awards</a>
                 </li>
                 <li>
-                    <div class="without-a">Company</div>
-                    <button class="drop-menu"><img src="image/menu-drop.svg" alt="" /></button>
-                    <ul class="hide">
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="careers.html">Careers</a></li>
-                    </ul>
+                    <a class="hide-menu" href="#ourwork">Our Work</a>
                 </li>
                 <li>
-                    <div class="without-a">Resources</div>
-                    <button class="drop-menu"><img src="image/menu-drop.svg" alt="" /></button>
-                    <ul class="hide">
-                        <li><a href="blog.html">Blog</a></li>
-                    </ul>
+                    <a class="hide-menu" href="#industries">Industries</a>
                 </li>
             </ul>
             <div class="text-center my-4">
@@ -1144,6 +1094,10 @@
                 $(this).toggleClass("open");
                 $(".resp-menu").toggleClass("hide");
             });
+
+            $(".hide-menu").click(function () {
+                $(".resp-menu").addClass("hide");
+            })
             $('.projects').owlCarousel({
                 loop: true,
                 nav: true,
