@@ -191,7 +191,8 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="text_number">Phone Number <span class="text-danger">*</span></label>
-                                    <input id="text_number" type="number" name="number" class="form-control input-field">
+                                    <input id="text_number" type="number" name="number"
+                                        class="form-control input-field">
                                     <span class="error-msg"></span>
                                 </div>
                             </div>
@@ -654,10 +655,6 @@
                                     <h3>Proske website</h3>
                                     <p class="py-3">Proske is a leader in the global events industry, providing
                                         organizations with the thought leadership, innovation, etc </p>
-                                    <!-- <div class="readmore">
-                                        <a href="javascript:void(0);">View project
-                                        </a>
-                                    </div> -->
                                 </div>
                             </a>
                         </div>
@@ -675,10 +672,6 @@
                                     <p class="py-3">TakeaSport was founded in Delhi and the teams motto is simple to
                                         bring people together to play different sports. The team tirelessly works on
                                         research...</p>
-                                    <!-- <div class="readmore">
-                                        <a href="javascript:void(0);">View project
-                                        </a>
-                                    </div> -->
                                 </div>
                             </a>
                         </div>
@@ -788,6 +781,21 @@
             </div>
         </div>
     </section>
+    <!-- <section class="py-80 home-bg-33">
+        <div class="row">
+            <div class="col-md-6"></div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-6">
+
+                    </div>
+                    <div class="col-md-6">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
     <section class="bg-other py-80 home-bg-33 industries" id="industries">
         <div class="container">
             <div class="text-center mb-5">
@@ -931,7 +939,7 @@
             <hr class="separator">
             <div class="py-4">
                 <p class="text1 text-center mb-0"> We put our heart into every project <a href="javascript:void(0);"
-                        onclick="return goto();" class="ml-3 fs-btn btn btn-primary">Work With Us</a></p>
+                        onclick="return goto3();" class="ml-3 fs-btn btn btn-primary">Work With Us</a></p>
             </div>
         </div>
         <div class="clearfix"></div>
@@ -1423,6 +1431,16 @@
             $('html, body').animate({
                 scrollTop: $("#scroll-top").offset().top
             }, 2000);
+        }
+
+        function goto3() {
+            if ($(window).width() >= 768) {
+                $('html, body').animate({
+                    scrollTop: $("#scroll-top").offset().top
+                }, 2000);
+            } else if ($(window).width() < 768){
+                window.location.href="#contactform1";
+            }
         }
 
         function goto2() {
