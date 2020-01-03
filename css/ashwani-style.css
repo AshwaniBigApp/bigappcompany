@@ -2446,7 +2446,7 @@ input[type=file]::-webkit-file-upload-button {
     text-transform: uppercase;
     padding: 0 !important;
     height: 48px;
-    line-height: 48px;
+    line-height: 42px;
 }
 
 .column li a,
