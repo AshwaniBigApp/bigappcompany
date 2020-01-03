@@ -214,7 +214,7 @@
                 </li>
             </ul>
             <div class="text-center my-4">
-                <p class="text-center text-white">Call us on: +91 7760511040</p>
+                <p class="text-center text-white">Call us on: <a href="tel:+917760511040" class="text-white">+91 7760511040</a></p>
                 <p class="text-center text-white">Mail us at: <a class="text-white" href="mailto:support@bigappcompany.com">Support@BigAppCompany.com</a></p>
             </div>
         </div>
@@ -327,8 +327,8 @@
                             <li><p>Sign up for Bigappcompany newsletters with product updates, event information, special offers and more..</p></li>
                             <li class="mt-3">
                                 <div class="readmore mb-5">
-                                    <a href="#section1" class="text-428 fs-btn btn signup-btn ">Sign Up
-                                    </a>
+                                    <a href="contact-us.html" class="text-428 fs-btn btn signup-btn ">Contact Us
+                                        </a>
                                 </div>
                             </li>
                         </ul>
@@ -422,7 +422,7 @@
                                 <div class="column">
                                     <ul>
                                         <li><strong>Contact Us</strong></li>
-                                        <li><a href="tel:+917760511040" onclick="return false;"><i
+                                        <li><a href="tel:+917760511040"><i
                                                     class="fa fa-phone"></i>+91 7760511040 </a></li>
                                         <li><a href="mailto:support@bigappcompany.com"><i
                                                     class="fas fa-envelope"></i>support@bigappcompany.com</a></li>
@@ -483,7 +483,7 @@
         </div>
     </div>
     <div class="text-center pt-3 pb-3 b-t-1 mt-4">
-        <p class="mb-0">&copy; 2019 BigAppCompany. All rights reserved.</p>
+        <p class="mb-0">&copy; 2020 BigAppCompany. All rights reserved.</p>
     </div>
 </section>
 
@@ -533,7 +533,14 @@
 			});
         });
 
-        $(document).ready(function(){
+         $(document).ready(function () {
+            $(".navbar-toggler").click(function () {
+                $(this).toggleClass("open");
+                $(".resp-menu").toggleClass("hide");
+            })
+            $(".drop-menu").click(function () {
+                $(this).toggleClass("open").siblings("ul").toggleClass("hide");
+            })
             $(".first-level li").hover(
                 function(){
                     $(this).parent().addClass("open-width");

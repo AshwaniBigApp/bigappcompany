@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
- <title>Big App Company | Home</title>
+    <title>Big App Company | Home</title>
     <meta charset="utf-8">
     <meta name="description" content="BigAppCompany">
     <meta name="keywords" content="Web,Bigappcompany">
     <meta name="copyright" content="BigAppCompany">
     <meta name="author" content="Ashwani, Vishwanath, Rakesh, Madhuri">
     <meta name="web_author" content="BigAppCompany">
-      <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="canonical" href="https://bigappcompany.com/">
     <link rel="shortcut icon" href="image/fav.png" type="image/x-icon">
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -20,159 +21,176 @@
     <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
     <link rel="stylesheet" type="text/css" href="css/stellarnav.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
-    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
+
 <body>
-<section class="bg-white p-3 fixed-top ">
-    <a class="navbar-brand" href="index.html">
-        <img src="image/logo.png" width="225" alt="BigAppCompany Logo">
-    </a>
-</section>
-<section class="py-80 mt-4 bg-green" id="section2">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-md-8">
-                <ul class="">
-                    <li class="job-list mb-5">
-                        <a href="#" onclick="return false;" class="job-list-info">
-                            <h3 class="job-title job-title-name">Computer Vision</h3> 
-                            <div class="job-other-info">
-                                <span>Bengaluru, India</span>
-                                <span>Full time</span>
-                                
-                            </div>
-                        </a>
-                        <div class="job-list-apply-wrap">
-                            <a href="#submitapp" class="fs-btn btn-custom">Apply Now</a>
-                        </div>
-                    </li>
-                    <li>
-                        
-                        <p class="text-diff">Roles and Responsibilities:</p>
-                        <ul class="lists-skils">
-                            <li>Constantly research, prototype and build solutions to computer vision problems.</li>
-                            <li>Actively find new solutions that we can provide to industry-specific problems.</li>
-                            <li>Build prototypes to display new analysis and insight.</li>
-                            <li>Build new tools to streamline the overall process flow as requirements develop.</li>
-                            <li>Add new features to existing tools.</li>
-                        </ul><br/>
-    
-                        <p class="text-diff">Requirements:</p>
-                        <ul class="lists-skils">
-                            <li>Strong command over all computer vision related use-cases, algorithms and approaches.Familiarity with Deep Learning frameworks such as TensorFlow ( and keras ), PyTorch, and strong experience in at least one of those. [ Using Python programming language is a must.].</li>
-                            <li>Familiar with different machine learning algorithms and when to use them.</li>
-                            <li>Strong math fundamentals in areas including but limited to linear algebra and computational geometry.</li>
-                            <li>Ability to write clean, concise and well documented code.</li>
-                            <li>Familiar with version control, writing tests and writing documentation.</li>
-                            <li>Open to learning new technologies and languages.</li>
-                            <li>Comfortable working in a low monitoring/guidance environment.</li>
-                            <li>Strong sense of initiative, ownership, urgency and drive.</li>
-                            <li>Experience in training and applying CNNs on various datasets.</li>
-                            <li>Excellent organisational and leadership skills.</li>
-                            <li>Basically were looking for people who are passionate about solving problems, and doing things the best way. If this is like you, we look forward to hearing from you.</li>
-                            <li>Years of Experience: 2- 8 years</li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md-2"></div>
-        </div>
-    </div>
-</section>
-<section class="py-80 bg-white submitapp" id="submitapp">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-md-8">
-                <div class="role-apply">
-                    <h3 class="font-weight-bold mb-5">Submit Your Application</h3>
-                    <form method="POST" action="http://13.127.192.166:81/submit-career" onsubmit= "return validateForm()" class="formClass" enctype="multipart/form-data">
+    <section class="bg-white p-3 fixed-top ">
+        <a class="navbar-brand" href="index.html">
+            <img src="image/logo.png" width="225" alt="BigAppCompany Logo">
+        </a>
+    </section>
+    <section class="py-80 mt-4 bg-green" id="section2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <ul class="">
+                        <li class="job-list mb-5">
+                            <a href="#" onclick="return false;" class="job-list-info">
+                                <h3 class="job-title job-title-name">Computer Vision</h3>
+                                <div class="job-other-info">
+                                    <span>Bengaluru, India</span>
+                                    <span>Full time</span>
 
-                        <div class="attachment form-group ">
-                            <input type="file" name="file" onchange="update()" class="hide inputfile resume" accept=".doc,.docx,.pdf"  id="upload" data-multiple-caption="{count} files selected" multiple />
-                            <label for="upload"><span>APPLY WITH RESUME</span><i class="required"> *</i></label>
-                            <span class="error-msg1"></span>
-                        </div>
-
-                        <div class="d-flex p-info mt-4">
-                            <div class="field-form form-group name-detail" >
-                                <label>First Name <span class="required">*</span></label>
-                                <input type="text" class="form-control first-name" id="fname" name="firstname">
-                                <span class="error-msg"></span>
-                            </div>
-                            <div class="field-form form-group">
-                                <label>Last Name <span class="required">*</span></label> 
-                                <input type="text" class="form-control lastname" id="lname" name="lastname">
-                                <span class="error-msg"></span>
-                            </div>             
-                        </div>
-
-                        <div class="p-detail mb-3">
-                            <div class="field-form form-group email">
-                                <label>Email <span class="required">*</span></label>
-                                <input type="text" class="form-control emial" id="email_info" name="email">
-                                <span class="error-msg"></span>
-                            </div>
-                            <div class="field-form form-group  mobile">
-                                <label>Mobile <span class="required">*</span></label>
-                                <input type="text" class="form-control mobile" id="mobile_no" name="mobile">
-                                <span class="error-msg"></span>
-                            </div>
-                        </div>
-
-                        <button type="submit" class="btn btn-custom btn-primary carrer-btn" id="">Submit Application</button>
-                    </form>
-                </div>
-            </div>
-            <div class="col-md-2">
-            </div>
-        </div>
-    </div>
-</section>
-<section class="getting-started bg-white ">
-    <div class="container">
-        <hr class="separator">
-        <div class="py-4">
-            <p class="text1 text-center mb-0"> Ready to discuss your project? <a href="contact-us.html" class="ml-3 fs-btn btn btn-primary">Work With Us</a></p>
-        </div>
-    </div>
-    <div class="clearfix"></div>
-</section>
-<section class="bootom pt-80 bg-green text-media">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="bottom-logo"> <img width="206" src="image/logo.png" class="img-responsive" alt="BigAppCompany Logo"> </div>
-                <div class="bottom-logo-description mt-2">
-                    <p class="mb-4">BigAppCompany is a talented global team creating digital experiences that merge imagination and technology.</p>
-                    <div class="column">
-                        <ul>
-                            <li><strong>Find us online</strong></li>
-                            <li class="social-links">
-                                <a href="https://www.facebook.com/BigAppCompany/?epa=SEARCH_BOX" >
-                                    <div class="social facebook"></div>
-                                </a>
-                         
-                                <a href="https://www.linkedin.com/company/bigappcompany/" >
-                                    <img src="image/linkedin.png" alt="" />
-                                </a>
-                            </li>
-                        </ul>
-                        <ul>
-                            <li><strong>Stay Connected</strong></li>
-                            <li><p>Sign up for Bigappcompany newsletters with product updates, event information, special offers and more..</p></li>
-                            <li class="mt-3">
-                                <div class="readmore mb-5">
-                                    <a href="#section1" class="text-428 fs-btn btn signup-btn ">Sign Up
-                                    </a>
                                 </div>
-                            </li>
-                        </ul>
+                            </a>
+                            <div class="job-list-apply-wrap">
+                                <a href="#submitapp" class="fs-btn btn-custom">Apply Now</a>
+                            </div>
+                        </li>
+                        <li>
+
+                            <p class="text-diff">Roles and Responsibilities:</p>
+                            <ul class="lists-skils">
+                                <li>Constantly research, prototype and build solutions to computer vision problems.</li>
+                                <li>Actively find new solutions that we can provide to industry-specific problems.</li>
+                                <li>Build prototypes to display new analysis and insight.</li>
+                                <li>Build new tools to streamline the overall process flow as requirements develop.</li>
+                                <li>Add new features to existing tools.</li>
+                            </ul><br />
+
+                            <p class="text-diff">Requirements:</p>
+                            <ul class="lists-skils">
+                                <li>Strong command over all computer vision related use-cases, algorithms and
+                                    approaches.Familiarity with Deep Learning frameworks such as TensorFlow ( and keras
+                                    ), PyTorch, and strong experience in at least one of those. [ Using Python
+                                    programming language is a must.].</li>
+                                <li>Familiar with different machine learning algorithms and when to use them.</li>
+                                <li>Strong math fundamentals in areas including but limited to linear algebra and
+                                    computational geometry.</li>
+                                <li>Ability to write clean, concise and well documented code.</li>
+                                <li>Familiar with version control, writing tests and writing documentation.</li>
+                                <li>Open to learning new technologies and languages.</li>
+                                <li>Comfortable working in a low monitoring/guidance environment.</li>
+                                <li>Strong sense of initiative, ownership, urgency and drive.</li>
+                                <li>Experience in training and applying CNNs on various datasets.</li>
+                                <li>Excellent organisational and leadership skills.</li>
+                                <li>Basically were looking for people who are passionate about solving problems, and
+                                    doing things the best way. If this is like you, we look forward to hearing from you.
+                                </li>
+                                <li>Years of Experience: 2- 8 years</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+        </div>
+    </section>
+    <section class="py-80 bg-white submitapp" id="submitapp">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <div class="role-apply">
+                        <h3 class="font-weight-bold mb-5">Submit Your Application</h3>
+                        <form method="POST" action="http://13.127.192.166:81/submit-career"
+                            onsubmit="return validateForm()" class="formClass" enctype="multipart/form-data">
+
+                            <div class="attachment form-group ">
+                                <input type="file" name="file" onchange="update()" class="hide inputfile resume"
+                                    accept=".doc,.docx,.pdf" id="upload" data-multiple-caption="{count} files selected"
+                                    multiple />
+                                <label for="upload"><span>APPLY WITH RESUME</span><i class="required"> *</i></label>
+                                <span class="error-msg1"></span>
+                            </div>
+
+                            <div class="d-flex p-info mt-4">
+                                <div class="field-form form-group name-detail">
+                                    <label>First Name <span class="required">*</span></label>
+                                    <input type="text" class="form-control first-name" id="fname" name="firstname">
+                                    <span class="error-msg"></span>
+                                </div>
+                                <div class="field-form form-group">
+                                    <label>Last Name <span class="required">*</span></label>
+                                    <input type="text" class="form-control lastname" id="lname" name="lastname">
+                                    <span class="error-msg"></span>
+                                </div>
+                            </div>
+
+                            <div class="p-detail mb-3">
+                                <div class="field-form form-group email">
+                                    <label>Email <span class="required">*</span></label>
+                                    <input type="text" class="form-control emial" id="email_info" name="email">
+                                    <span class="error-msg"></span>
+                                </div>
+                                <div class="field-form form-group  mobile">
+                                    <label>Mobile <span class="required">*</span></label>
+                                    <input type="text" class="form-control mobile" id="mobile_no" name="mobile">
+                                    <span class="error-msg"></span>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn btn-custom btn-primary carrer-btn" id="">Submit
+                                Application</button>
+                        </form>
                     </div>
                 </div>
+                <div class="col-md-2">
+                </div>
             </div>
-            <div class=" col-md-8">
+        </div>
+    </section>
+    <section class="getting-started bg-white ">
+        <div class="container">
+            <hr class="separator">
+            <div class="py-4">
+                <p class="text1 text-center mb-0"> Ready to discuss your project? <a href="contact-us.html"
+                        class="ml-3 fs-btn btn btn-primary">Work With Us</a></p>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </section>
+    <section class="bootom pt-80 bg-green text-media">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="bottom-logo"> <img width="206" src="image/logo.png" class="img-responsive"
+                            alt="BigAppCompany Logo"> </div>
+                    <div class="bottom-logo-description mt-2">
+                        <p class="mb-4">BigAppCompany is a talented global team creating digital experiences that merge
+                            imagination and technology.</p>
+                        <div class="column">
+                            <ul>
+                                <li><strong>Find us online</strong></li>
+                                <li class="social-links">
+                                    <a href="https://www.facebook.com/BigAppCompany/?epa=SEARCH_BOX">
+                                        <div class="social facebook"></div>
+                                    </a>
+
+                                    <a href="https://www.linkedin.com/company/bigappcompany/">
+                                        <img src="image/linkedin.png" alt="" />
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li><strong>Stay Connected</strong></li>
+                                <li>
+                                    <p>Sign up for Bigappcompany newsletters with product updates, event information,
+                                        special offers and more..</p>
+                                </li>
+                                <li class="mt-3">
+                                    <div class="readmore mb-5">
+                                        <a href="contact-us.html" class="text-428 fs-btn btn signup-btn ">Contact Us
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-md-8">
                     <div class="container">
                         <div class="row">
                             <div class="col-12 col-sm-4 col-md-4 col-lg-4">
@@ -180,43 +198,43 @@
                                     <ul>
                                         <li><strong>Define Startegies</strong></li>
                                         <li class="link"><i class="fas fa-angle-right right-angle"></i> <a
-                                        href="digital-transformation-consulting.html">Digital
+                                                href="digital-transformation-consulting.html">Digital
                                                 Transformation Consulting</a></li>
                                         <li class="link"><i class="fas fa-angle-right right-angle"></i> <a
-                                        href="innovation-workshops.html">Innovation
+                                                href="innovation-workshops.html">Innovation
                                                 Workshops</a></li>
                                     </ul>
                                     <ul>
                                         <li><strong>Create experiences</strong></li>
                                         <li class="link"><i class="fas fa-angle-right right-angle"></i> <a
-                                        href="website-design.html">Website
+                                                href="website-design.html">Website
                                                 Design</a></li>
                                         <li class="link"><i class="fas fa-angle-right right-angle"></i> <a
-                                        href="app-design.html">App
+                                                href="app-design.html">App
                                                 Design</a></li>
                                         <li class="link"><i class="fas fa-angle-right right-angle"></i> <a
-                                        href="ecommerce-website-design.html">eCommerce</a></li>
+                                                href="ecommerce-website-design.html">eCommerce</a></li>
                                         <li class="link"><i class="fas fa-angle-right right-angle"></i> <a
-                                        href="logo-and-branding.html">Logos
-                                        + Visual Identity</a></li>
+                                                href="logo-and-branding.html">Logos
+                                                + Visual Identity</a></li>
                                     </ul>
                                     <ul>
                                         <li><strong>Deliver Platforms</strong></li>
                                         <li class="link"><i class="fas fa-angle-right right-angle"></i> <a
-                                        href="technology-architecture.html">Technology
+                                                href="technology-architecture.html">Technology
                                                 Architecture</a></li>
                                         <li class="link"><i class="fas fa-angle-right right-angle"></i> <a
-                                        href="website-development.html">Website
+                                                href="website-development.html">Website
                                                 Development</a></li>
                                         <li class="link"><i class="fas fa-angle-right right-angle"></i> <a
-                                        href="application-development.html">Application
+                                                href="application-development.html">Application
                                                 Development</a></li>
                                         <li class="link"><i class="fas fa-angle-right right-angle"></i> <a
-                                        href="enterprise-portal-development.html">Enterprise
+                                                href="enterprise-portal-development.html">Enterprise
                                                 Portal Development</a></li>
                                         <li class="link"><i class="fas fa-angle-right right-angle"></i> <a
-                                        href="app-development.html">App
-                                        Development</a></li>
+                                                href="app-development.html">App
+                                                Development</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -225,10 +243,10 @@
                                     <ul>
                                         <li><strong>Next Gen</strong></li>
                                         <li class="link"><i class="fas fa-angle-right right-angle"></i> <a
-                                        href="computer-vision.html">Computer
+                                                href="computer-vision.html">Computer
                                                 Vision</a></li>
                                         <li class="link"><i class="fas fa-angle-right right-angle"></i> <a
-                                        href="chat-bots.html">Chat Bots</a></li>
+                                                href="chat-bots.html">Chat Bots</a></li>
                                     </ul>
                                     <ul>
                                         <li><strong>Our Work</strong></li>
@@ -259,8 +277,8 @@
                                 <div class="column">
                                     <ul>
                                         <li><strong>Contact Us</strong></li>
-                                        <li><a href="tel:+917760511040" onclick="return false;"><i
-                                                    class="fa fa-phone"></i>+91 7760511040 </a></li>
+                                        <li><a href="tel:+917760511040"><i class="fa fa-phone"></i>+91 7760511040 </a>
+                                        </li>
                                         <li><a href="mailto:support@bigappcompany.com"><i
                                                     class="fas fa-envelope"></i>support@bigappcompany.com</a></li>
                                     </ul>
@@ -273,7 +291,7 @@
                                         <li class="mt-3">
                                             <div class="readmore">
                                                 <i class="fas fa-map-marker-alt"></i>
-                                                 <a href="javascript:void(0);" class="text-429">Find Us on Map
+                                                <a href="javascript:void(0);" class="text-429">Find Us on Map
                                                 </a>
                                                 <iframe class="frame"
                                                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.1300056485434!2d77.5751822140843!3d13.027392090819312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1739bc31f099%3A0x2d2c9fa8b1be1f!2sBigAppCompany!5e0!3m2!1sen!2sin!4v1544523970927"
@@ -286,138 +304,150 @@
                         </div>
                     </div>
                 </div>
-        </div>
-    </div>
-</section>
-<section class="bootom bg-green text-media">
-    <div class="signup py-80" id="section1">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3"></div>
-                <div class="col-md-6">
-                    <h3 class="mb-5 text-white">Stay in the loop</h3>
-                    <!-- <p class="mb-5 text-white text-weighted">Sign up for Google Cloud newsletters with product updates, event information, special offers and more.</p>   -->
-                    <form class="mt-3" id="formID">
-                        <input type="hidden" name="subject" value="Enquiry From SignUp Form" />
-                        <input type="hidden" name="from_email" value="support@bigappcompany.com" />
-                        <input type="hidden" name="to_email" value="support@bigappcompany.com" />
-                        <input type="hidden" name="to_cc" value="" />
-                        <div class="field-input">
-                            <input id="signup-email" type="text" name="email" placeholder="Enter Your Email address"/>
-                            <label>Email</label>
-                            <span class="error-msg"></span>
-                        </div>
-                        <div class="field-checkbox">
-                            <input type="checkbox" class="myCheckbox" name="check"/>
-                            <label>Yes, sign me up for Bigappcompany emails with news, product updates, event information, special offers and more. (You can unsubscribe at a later time)</label>
-                        </div>
-                        <div class="mt-5 text-center">
-                        <button class="btn-immersive checkSubmit disabled text-uppercase mt-5" disabled="disabled">sign me up</button></div>
-                    </form>
-                </div>
-                <div class="col-md-3"></div>
             </div>
         </div>
-    </div>
-    <div class="text-center pt-3 pb-3 b-t-1 mt-4">
-        <p class="mb-0">&copy; 2019 BigAppCompany. All rights reserved.</p>
-    </div>
-</section>
+    </section>
+    <section class="bootom bg-green text-media">
+        <div class="signup py-80 position-relative" id="section1">
+            <div class="signup-hide">
+                <i class="fa fa-close"></i>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6">
+                        <h3 class="mb-5  text-white">Stay
+                            in
+                            the
+                            loop</h3>
+                        <!-- <p class="mb-5 text-white text-weighted">Sign up for Google Cloud newsletters with product updates, event information, special offers and more.</p>   -->
+                        <form class="mt-3" id="formID">
+                            <input type="hidden" name="subject" value="Enquiry From SignUp Form" />
+                            <input type="hidden" name="from_email" value="support@bigappcompany.com" />
+                            <input type="hidden" name="to_email" value="support@bigappcompany.com" />
+                            <input type="hidden" name="to_cc" value="" />
+                            <div class="field-input">
+                                <input id="signup-email" type="text" name="email"
+                                    placeholder="Enter Your Email address" />
+                                <label>Email</label>
+                                <span class="error-msg"></span>
+                            </div>
+                            <div class="field-checkbox">
+                                <input type="checkbox" class="myCheckbox" name="check" />
+                                <label>Yes, sign me up for Bigappcompany emails with news, product updates, event
+                                    information, special offers and more. (You can unsubscribe at a later time)
+                                </label>
+                            </div>
+                            <div class="mt-5 text-center">
+                                <button class="btn-immersive checkSubmit disabled text-uppercase mt-5"
+                                    disabled="disabled">sign me up
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-3"></div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center pt-3 pb-3 b-t-1 mt-4">
+            <p class="mb-0">&copy; 2020 BigAppCompany. All rights reserved.
+            </p>
+        </div>
+    </section>
 
-<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css" />
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
- <script src="js/popper.min.js"></script>
- <script src="js/bootstrap.min.js"></script>
-<script src="js/custom.js" type="text/javascript"></script>
-<script src="js/wow.min.js" type="text/javascript"></script>
-<script src="js/owl.carousel.min.js" type="text/javascript"></script>
-<script src="js/slick.min.js" type="text/javascript"></script>
-<script src="js/stellarnav.js" type="text/javascript"></script>
-<script src="js/sweetalert.min.js"></script>
-<script type="text/javascript">
-    function update(){
-        $("#upload").parent().children(".error-msg1").html("Successfully Uploaded").css("color","green");
-    }
-
-    $("#fname").keyup(function(){
-        $("#fname").parent().children(".error-msg").text("");
-        $("#fname").css("border","1px solid rgba(0,0,0,0.2)");
-    });
-    $("#lname").keyup(function(){
-        $("#lname").parent().children(".error-msg").text("");
-        $("#lname").css("border","1px solid rgba(0,0,0,0.2)");
-    });
-    $("#email_info").keyup(function(){
-        $("#email_info").parent().children(".error-msg").text("");
-        $("#email_info").css("border","1px solid rgba(0,0,0,0.2)");
-    });
-    $("#mobile_no").keyup(function(){
-        $("#mobile_no").parent().children(".error-msg").text("");
-        $("#mobile_no").css("border","1px solid rgba(0,0,0,0.2)");
-    });
-
-    function validateForm(){
-        document.getElementsByClassName("error-msg").innerHTML="";
-
-        let getresume = $("#upload").val();
-        if(getresume == ""){
-            $("#upload").focus();
-            $("#upload").parent().addClass("submit-has-error");
-            $("#upload").parent().children(".error-msg1").html("Please Attach Resume");
-            return false; 
-        }
-        let getname = $("#fname").val();
-        if (getname == "") {
-            $("#fname").focus();
-            $("#fname").parent().addClass("submit-has-error");
-            $("#fname").parent().children(".error-msg").html("Please Enter FirstName");
-            return false;
-        }
-
-        let getlname = $('#lname').val();
-        if(getlname == ""){
-            $("#lname").focus();
-            $("#lname").parent().addClass("submit-has-error");
-            $("#lname").parent().children(".error-msg").html("Please Enter LastName");
-            return false;
-        }
-        let getemail = $('#email_info').val();
-        if(getemail == ""){
-            $("#email_info").focus();
-            $("#email_info").parent().addClass("submit-has-error");
-            $("#email_info").parent().children(".error-msg").html("Please Enter Email Id");
-            return false;
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js" type="text/javascript"></script>
+    <script src="js/wow.min.js" type="text/javascript"></script>
+    <script src="js/owl.carousel.min.js" type="text/javascript"></script>
+    <script src="js/slick.min.js" type="text/javascript"></script>
+    <script src="js/stellarnav.js" type="text/javascript"></script>
+    <script src="js/sweetalert.min.js"></script>
+    <script type="text/javascript">
+        function update() {
+            $("#upload").parent().children(".error-msg1").html("Successfully Uploaded").css("color", "green");
         }
 
-        let getmono = $("#mobile_no").val();
-        if (getmono == "") {
-            $("#mobile_no").focus();
-            $("#mobile_no").parent().addClass("submit-has-error");
-            $("#mobile_no").parent().children(".error-msg").html("Please Enter Mobile Number");
-            return false;
-        }
-        let getmonolength = getmono.length;
-        if (getmonolength != 10) {
-            $("#mobile_no").select();
-            $("#mobile_no").parent().children(".error-msg").html("Please Enter a Valid Mobile Number");
-            return false;
-        }
-        let getmonotype = isNaN(getmono);
-        if (getmonotype == true) {
-            $("#text_number").select();
-            $("#text_number").parent().children(".error-msg").html("Please Enter a Valid Mobile Number");
-            return false;
-        }
+        $("#fname").keyup(function () {
+            $("#fname").parent().children(".error-msg").text("");
+            $("#fname").css("border", "1px solid rgba(0,0,0,0.2)");
+        });
+        $("#lname").keyup(function () {
+            $("#lname").parent().children(".error-msg").text("");
+            $("#lname").css("border", "1px solid rgba(0,0,0,0.2)");
+        });
+        $("#email_info").keyup(function () {
+            $("#email_info").parent().children(".error-msg").text("");
+            $("#email_info").css("border", "1px solid rgba(0,0,0,0.2)");
+        });
+        $("#mobile_no").keyup(function () {
+            $("#mobile_no").parent().children(".error-msg").text("");
+            $("#mobile_no").css("border", "1px solid rgba(0,0,0,0.2)");
+        });
 
-        if(getresume != "" && getname != "" && getlname != "" && getemail != "" && getmono != ""){
-            swal("Thank you!", "We will get back to you ASAP", "success");
-            return true;
-        }
-    
-    }
+        function validateForm() {
+            document.getElementsByClassName("error-msg").innerHTML = "";
 
-</script>
-<script src="https://wchat.freshchat.com/js/widget.js"></script>
+            let getresume = $("#upload").val();
+            if (getresume == "") {
+                $("#upload").focus();
+                $("#upload").parent().addClass("submit-has-error");
+                $("#upload").parent().children(".error-msg1").html("Please Attach Resume");
+                return false;
+            }
+            let getname = $("#fname").val();
+            if (getname == "") {
+                $("#fname").focus();
+                $("#fname").parent().addClass("submit-has-error");
+                $("#fname").parent().children(".error-msg").html("Please Enter FirstName");
+                return false;
+            }
+
+            let getlname = $('#lname').val();
+            if (getlname == "") {
+                $("#lname").focus();
+                $("#lname").parent().addClass("submit-has-error");
+                $("#lname").parent().children(".error-msg").html("Please Enter LastName");
+                return false;
+            }
+            let getemail = $('#email_info').val();
+            if (getemail == "") {
+                $("#email_info").focus();
+                $("#email_info").parent().addClass("submit-has-error");
+                $("#email_info").parent().children(".error-msg").html("Please Enter Email Id");
+                return false;
+            }
+
+            let getmono = $("#mobile_no").val();
+            if (getmono == "") {
+                $("#mobile_no").focus();
+                $("#mobile_no").parent().addClass("submit-has-error");
+                $("#mobile_no").parent().children(".error-msg").html("Please Enter Mobile Number");
+                return false;
+            }
+            let getmonolength = getmono.length;
+            if (getmonolength != 10) {
+                $("#mobile_no").select();
+                $("#mobile_no").parent().children(".error-msg").html("Please Enter a Valid Mobile Number");
+                return false;
+            }
+            let getmonotype = isNaN(getmono);
+            if (getmonotype == true) {
+                $("#text_number").select();
+                $("#text_number").parent().children(".error-msg").html("Please Enter a Valid Mobile Number");
+                return false;
+            }
+
+            if (getresume != "" && getname != "" && getlname != "" && getemail != "" && getmono != "") {
+                swal("Thank you!", "We will get back to you ASAP", "success");
+                return true;
+            }
+
+        }
+    </script>
+    <script src="https://wchat.freshchat.com/js/widget.js"></script>
     <script type="text/javascript">
         window.fcWidget.init({
 
@@ -427,78 +457,83 @@
 
         });
         new WOW().init();
-    $('.testi').slick({
-        centerMode: true,
-        slidesToShow: 3,
-        vertical: true
-    });
-    $(document).ready(function(){
-        $("#scrolldown").on('click', function(event) {
-            if (this.hash !== "") {
-            event.preventDefault();
-            var hash = this.hash;
-            $('html, body').animate({
-                scrollTop: $(hash).offset().top - 100
-            }, 800, function(){
+        $('.testi').slick({
+            centerMode: true,
+            slidesToShow: 3,
+            vertical: true
+        });
+        $(document).ready(function () {
+            $("#scrolldown").on('click', function (event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
+                    var hash = this.hash;
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top - 100
+                    }, 800, function () {});
+                }
             });
-        }
-    });
-});
-</script>
-<script type="text/javascript">
-        jQuery(document).ready(function($) {
+        });
+    </script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
             jQuery('.stellarnav').stellarNav({
                 theme: 'dark',
                 breakpoint: 960
             });
         });
 
-        $(document).ready(function(){
+        $(document).ready(function () {
+            $(".navbar-toggler").click(function () {
+                $(this).toggleClass("open");
+                $(".resp-menu").toggleClass("hide");
+            })
+            $(".drop-menu").click(function () {
+                $(this).toggleClass("open").siblings("ul").toggleClass("hide");
+            })
             $(".first-level li").hover(
-                function(){
+                function () {
                     $(this).parent().addClass("open-width");
                 },
-                function(){
+                function () {
                     $(this).parent().removeClass("open-width");
                 }
             )
-            $(".signup-btn").click(function(){
-                $(".signup").toggleClass("main");
-            });
+             // $(".signup-btn").click(function () {
+            //     $(".signup").toggleClass("main");
+            // });
 
-        $('.checkSubmit').on('click',function(e){
-            e.preventDefault();
-            let Email=$('#signup-email').val();
-            if (Email == "") {
-                $("#signup-email").focus();
-                $("#signup-email").parent().addClass("has-error");
-                $("#signup-email").parent().children(".error-msg").html("Please Enter Email");
-                return false;
-            }
-            var fdata = new FormData()
-            fdata.append("product_name", $("#formID").serialize());
-            jQuery.ajax({
-                type: 'POST'
-                , url: "https://bigappcompany.co.in/demos/cms/contact"
-                , data: fdata
-                , contentType: false
-                , processData: false
-                , success: function (response) {
-                    if (response == 1) {
-                        swal("Thank you!", "We will get back to you ASAP", "success");
-                        //alert("Thank you for contacting BigApp Company we will get back to you in 24 hours");
-                        location.reload();
-                    }
-                    else {
-                        swal("Oops!", "Please Try After Some Time", "error");
-                        // alert("Please Try After Some Time");
-                    }
+            $('.checkSubmit').on('click', function (e) {
+                e.preventDefault();
+                let Email = $('#signup-email').val();
+                if (Email == "") {
+                    $("#signup-email").focus();
+                    $("#signup-email").parent().addClass("has-error");
+                    $("#signup-email").parent().children(".error-msg").html("Please Enter Email");
+                    return false;
                 }
+                var fdata = new FormData()
+                fdata.append("product_name", $("#formID").serialize());
+                jQuery.ajax({
+                    type: 'POST',
+                    url: "https://bigappcompany.co.in/demos/cms/contact",
+                    data: fdata,
+                    contentType: false,
+                    processData: false,
+                    success: function (response) {
+                        if (response == 1) {
+                            swal("Thank you!", "We will get back to you ASAP", "success");
+                            //alert("Thank you for contacting BigApp Company we will get back to you in 24 hours");
+                            location.reload();
+                        } else {
+                            swal("Oops!", "Please Try After Some Time", "error");
+                            // alert("Please Try After Some Time");
+                        }
+                    }
+                })
             })
-        })
-    });
-</script>
-    
+        });
+    </script>
+
 </body>
 
 </html>

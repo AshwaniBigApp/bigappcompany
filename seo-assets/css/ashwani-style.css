@@ -3508,6 +3508,28 @@ input[type=file]::-webkit-file-upload-button {
     position: relative;
 }
 
+.industry-card{
+    background-color: #ffbb02;
+    height:300px;
+    padding:20px;
+}
+
+.industry-card h3{
+    color:#fff;
+}
+
+.title{
+    width:60%;
+}
+
+.home-page .consultas-section .imagehero {
+    position: absolute;
+    bottom: 0;
+    width: 50%;
+    right:0;
+    pointer-events: none;
+}
+
 @media (max-width:992px){
     .shape-one , .shape-two, .shape-three, .shape-four, .round-shape-four , .round-shape-one, .round-shape-two, .round-shape-three{
         display: none;

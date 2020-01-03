@@ -45,7 +45,6 @@
                 <ul>
                     <li><a href="tel:+917760511040"><i class="fa fa-phone"></i>+91
                             7760511040</a></li>
-                    <!-- <li><a href="skype:username"><i class="fa fa-skype"></i>Skypeid</a></li> -->
                     <li><a href="mailto:support@bigappcompany.com"><i class="fas
                                 fa-envelope"></i>
                             Support@BigAppCompany.com
@@ -212,7 +211,8 @@
                 </li>
             </ul>
             <div class="text-center my-4">
-                <p class="text-center text-white">Call us on: +91 7760511040</p>
+                <p class="text-center text-white">Call us on: <a href="tel:+917760511040" class="text-white">+91
+                        7760511040</a></p>
                 <p class="text-center text-white">Mail us at: <a class="text-white"
                         href="mailto:support@bigappcompany.com">Support@BigAppCompany.com</a></p>
             </div>
@@ -223,7 +223,6 @@
             <div class="row py-80">
                 <div class="col-md-6 order-2 order-md-12 text-media pt-20">
                     <h1>Website Development Company In Bangalore</h1>
-                    <!-- <h1>Make Your Move From Now to Next.</h1> -->
                     <h3 class="mb-3">
                         We create beautiful websites, build world-class android and iOS mobile application.</h3>
                     <ul class="head-p mb-5">
@@ -231,12 +230,6 @@
                         <li>- <b>30+ strong in-house development team</b></li>
                         <li>- <b>Delivering 5+ solutions every month</b></li>
                     </ul>
-                    <!-- <p class="head-p mb-5">
-                        Whether your business is early in its journey or well on its<br class="d-none d-lg-block" /> way
-                        to digital transformation, BigAppcompany's team<br class="d-none d-lg-block" /> combine
-                        imagination and technology to help brands<br class="d-none d-lg-block" /> chart a path to
-                        success.
-                    </p> -->
                     <div class="">
                         <img class="mr-4" width="110" src="image/top-interactive-agencies.png" alt="" />
                         <img width="110" src="image/interactive-media-awards.png" alt="" />
@@ -716,7 +709,7 @@
                                 </li>
                                 <li class="mt-3">
                                     <div class="readmore mb-5">
-                                        <a href="#section1" class="text-428 fs-btn btn signup-btn ">Sign Up
+                                        <a href="contact-us.html" class="text-428 fs-btn btn signup-btn ">Contact Us
                                         </a>
                                     </div>
                                 </li>
@@ -800,8 +793,8 @@
                                 <div class="column">
                                     <ul>
                                         <li><strong>Contact Us</strong></li>
-                                        <li><a href="tel:+917760511040" onclick="return false;"><i
-                                                    class="fa fa-phone"></i>+91 7760511040 </a></li>
+                                        <li><a href="tel:+917760511040"><i class="fa fa-phone"></i>+91 7760511040 </a>
+                                        </li>
                                         <li><a href="mailto:support@bigappcompany.com"><i
                                                     class="fas fa-envelope"></i>support@bigappcompany.com</a></li>
                                     </ul>
@@ -877,12 +870,19 @@
         </div>
     </section>
     <section class="bootom bg-green text-media">
-        <div class="signup py-80" id="section1">
+        <div class="signup py-80 position-relative" id="section1">
+            <div class="signup-hide">
+                <i class="fa fa-close"></i>
+            </div>
             <div class="container">
                 <div class="row">
                     <div class="col-md-3"></div>
                     <div class="col-md-6">
-                        <h3 class="mb-5 text-white">Stay in the loop</h3>
+                        <h3 class="mb-5  text-white">Stay
+                            in
+                            the
+                            loop</h3>
+                        <!-- <p class="mb-5 text-white text-weighted">Sign up for Google Cloud newsletters with product updates, event information, special offers and more.</p>   -->
                         <form class="mt-3" id="formID">
                             <input type="hidden" name="subject" value="Enquiry From SignUp Form" />
                             <input type="hidden" name="from_email" value="support@bigappcompany.com" />
@@ -897,11 +897,14 @@
                             <div class="field-checkbox">
                                 <input type="checkbox" class="myCheckbox" name="check" />
                                 <label>Yes, sign me up for Bigappcompany emails with news, product updates, event
-                                    information, special offers and more. (You can unsubscribe at a later time)</label>
+                                    information, special offers and more. (You can unsubscribe at a later time)
+                                </label>
                             </div>
                             <div class="mt-5 text-center">
                                 <button class="btn-immersive checkSubmit disabled text-uppercase mt-5"
-                                    disabled="disabled">sign me up</button></div>
+                                    disabled="disabled">sign me up
+                                </button>
+                            </div>
                         </form>
                     </div>
                     <div class="col-md-3"></div>
@@ -909,7 +912,8 @@
             </div>
         </div>
         <div class="text-center pt-3 pb-3 b-t-1 mt-4">
-            <p class="mb-0">&copy; 2019 BigAppCompany. All rights reserved.</p>
+            <p class="mb-0">&copy; 2020 BigAppCompany. All rights reserved.
+            </p>
         </div>
     </section>
 
@@ -976,9 +980,9 @@
                     $(this).parent().removeClass("open-width");
                 }
             )
-            $(".signup-btn").click(function () {
-                $(".signup").toggleClass("main");
-            });
+             // $(".signup-btn").click(function () {
+            //     $(".signup").toggleClass("main");
+            // });
 
             $('.checkSubmit').on('click', function (e) {
                 e.preventDefault();
