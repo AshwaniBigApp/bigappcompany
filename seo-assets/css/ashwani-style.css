@@ -3779,3 +3779,26 @@ input[type=number]::-webkit-outer-spin-button {
     0%   {-webkit-transform: scale(1);transform: scale(1);}
     100% {-webkit-transform: scale(0.2);transform: scale(0.2);}
   }
+
+  .close-modal-img{
+      position:absolute;
+      right:10px;
+      top:10px;
+      width:26px;
+      background:#fff;
+      height:26px;
+      padding:2px; 
+      border-radius:100%;
+      line-height:8px;
+      /* border:1px solid #000; */
+  }
+
+  .close-modal-img img{
+      width:100%;
+  }
+
+  .font-low{
+      font-size:13px;
+      font-weight:400;
+      margin-top:30px;
+  }
