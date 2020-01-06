@@ -18,7 +18,6 @@
     <link rel="stylesheet" type="text/css" href="seo-assets/css/owl.theme.default.min.css">
     <link rel="stylesheet" type="text/css" href="seo-assets/css/slick.css">
     <link rel="stylesheet" type="text/css" href="seo-assets/css/slick-theme.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="seo-assets/css/font-awesome/css/font-awesome.min.css" />
     <style>
         .modal {
@@ -678,41 +677,6 @@
             </div>
         </div>
     </section>
-    <!-- <section class="py-80">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="title">
-                        <h2 class="anim-reveal js-anim-reveal js-animated active" data-from="left">We succeed in our
-                            venture by being experts in your business</h2>
-                    </div>
-                    <div class="imagehero anim-in-focus" style="">
-                        <span class="focus"
-                            style="backface-visibility: visible; transform: matrix(1.5, 0, 0, 1.5, 0, 0);"></span>
-                        <picture>
-                            <source
-                                srcset="https://psikontacto.com/public/imgs/static/hero2.png 1x, https://psikontacto.com/public/imgs/static/hero2@2x.png 2x">
-                            <img src="https://psikontacto.com/public/imgs/static/hero2.png" alt="">
-                        </picture>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="industry-card">
-                                <h3>B2B</h3>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="industry-card">
-                                <h3>B2C</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
     <section class="bg-other py-80 home-bg-33 industries" id="industries">
         <div class="container">
             <div class="text-center mb-5">
@@ -1104,31 +1068,6 @@
         </div>
     </section>
 
-    <button type="button" class="btn btn-primary" id="open" data-toggle="modal" data-target="#exampleModal"
-        style="display: none;">
-        Launch demo modal
-    </button>
-    <div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    ...
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <!-- <div class="modal" id="openFormModal" tabindex="-1" role="dialog" aria-labelledby="openFormModalLabel"
         aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
@@ -1138,15 +1077,16 @@
                         <div class="close-modal-img">
                             <img src="image/close-icon.png" />
                         </div>
-                        <p class="text-center font-low">
+                        <h3 class="px-4"><b>Ready to Discuss</b></h3>
+                        <p class="px-4 font-low mt-1 mb-3">
                             Tel:<a href="tel:+917760511040" class="text-dark"> +91
                                 7760511040</a> |
-                            <a href="mailto:support@bigappcompany.com" class="text-dark">
+                            <a href="mailto:madhuri@bigappcompany.com" class="text-dark">
                                 support@bigappcompany.com
                             </a>
                         </p>
-                        <form id="contactform1" class="customer-detail px-4 p-0 mt-0 mb-0 w-100 bg-white">
-                            <input type="hidden" name="subject" value="Enquiry From ContactUs Form" />
+                        <form id="contactform2" class="customer-detail px-4 p-0 mt-0 mb-0 w-100 bg-white">
+                            <input type="hidden" name="subject" value="Enquiry From ContactUs Form" autofocus />
                             <input type="hidden" name="from_email" value="support@bigappcompany.com" />
                             <input type="hidden" name="to_email" value="support@bigappcompany.com" />
                             <input type="hidden" name="to_cc" value="" />
@@ -1180,7 +1120,7 @@
                             <div class="text-media">
                                 <input type="button" value="Submit"
                                     class="btn btn-block btn-primary fs-btn lg-button detail-submit m-2"
-                                    id="sendmessage1" />
+                                    id="sendmessage2" />
                             </div>
                         </form>
                     </div>
@@ -1194,12 +1134,14 @@
     <script src="seo-assets/js/bootstrap.min.js"></script>
     <script src="seo-assets/js/owl.carousel.min.js" type="text/javascript"></script>
     <script src="seo-assets/js/slick.min.js" type="text/javascript"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script type="text/javascript">
         if ($(window).width() >= 992) {
-            AOS.init();
             $('.demo').addClass('other');
         }
+
+        $('.close-modal-img').click(function () {
+            $('#openFormModal').modal("toggle");
+        });
 
         $('.testi').slick({
             centerMode: true,
@@ -1208,10 +1150,6 @@
             autoplay: true,
             speed: 100,
         });
-
-        // function PopUp() {
-        //     $('#open').trigger('click');
-        // }
         $('.tech').slick({
             centerMode: true,
             dots: false,
@@ -1244,9 +1182,6 @@
             ]
         });
         $(document).ready(function () {
-            // setTimeout(function () {
-            //     PopUp();
-            // }, 5000);
 
             $(".navbar-toggler").click(function () {
                 $(this).toggleClass("open");
@@ -1282,133 +1217,6 @@
             $(".projects .owl-next").html('<i class="fa fa-angle-right"></i>');
             $(".tech .slick-prev").html('<i class="fa fa-angle-left"></i>');
             $(".tech .slick-next").html('<i class="fa fa-angle-right"></i>');
-            // $(".service-d select").change(function () {
-            //     var target = $('.service-d select option:selected').val();
-            //     $(this).parent().parent().next().children(".form-group").addClass("d-none");
-            //     if (target == "") {
-            //         $(this).parent().parent().next().children(".form-group").addClass("d-none");
-            //     }
-            //     if (target == "WebsiteDevelopment" || target == "DynamicWebsite") {
-            //         $(this).parent().parent().next().children(".website-d").removeClass("d-none");
-            //         $('.budget option').remove();
-            //         $('.budget').append(
-            //             `
-            //             <option value="">Select budget</option>
-            //             <option value="100000above">1,00,000 and above</option>
-            //             <option value="50KTo1L">50,000 - 1,00,000</option>
-            //             <option value="30KTo50K">30,000 - 50,000</option>
-            //             <option value="30000">Less than 30,000</option>
-            //             `
-            //         )
-            //     }
-            //     if (target == "MobileApp") {
-            //         $(this).parent().parent().next().children(".website-d").removeClass("d-none");
-            //         $('.budget option').remove();
-            //         $('.budget').append(
-            //             `
-            //             <option value="">Select budget</option>
-            //             <option value="500000above">5,00,000 and above</option>
-            //             <option value="3LTo5L">3,00,000 - 5,00,000</option>
-            //             <option value="1LTo3L">2,00,000 - 3,00,000</option> 
-            //             `
-            //         )
-
-            //     }
-            //     if (target == "eCommerceWebsite") {
-            //         $(this).parent().parent().next().children(".website-d").removeClass("d-none");
-            //         $('.budget option').remove();
-            //         $('.budget').append(
-            //             `
-            //             <option value="">Select budget</option>
-            //             <option value="300000above">3,00,000 and above</option>
-            //             <option value="1LTo3L">1,00,000 - 3,00,000</option>
-            //             <option value="50KTo1L">50,000 - 1,00,000</option>
-            //             `
-            //         )
-            //     }
-            //     if (target == "CustomSoftware" || target == "ERPSolution") {
-            //         $(this).parent().parent().next().children(".website-d").removeClass("d-none");
-            //         $('.budget option').remove();
-            //         $('.budget').append(
-            //             `
-            //             <option value="">Select budget</option>
-            //             <option value="500000above">5,00,000 and above</option>
-            //             <option value="3LTo5L">3,00,000 - 5,00,000</option>
-            //             <option value="1LTo3L">1,00,000 - 3,00,000</option> 
-            //             `
-            //         )
-            //     }
-            //     if (target == "Others") {
-            //         $(this).parent().parent().next().children(".website-d").removeClass("d-none");
-            //         $('.budget option').remove();
-            //         $('.budget').append(
-            //             `
-            //             <option value="">Select budget</option>
-            //             <option value="500000above">5,00,000 and above</option>
-            //             <option value="3LTo5L">3,00,000 - 5,00,000</option>
-            //             <option value="1LTo3L">1,00,000 - 3,00,000</option>
-            //             <option value="30KTo1L">30,000 - 1,00,000</option>
-            //             `
-            //         )
-            //     }
-            // });
-            // $(".service-d1 select").change(function () {
-            //     var target = $('.service-d1 select option:selected').val();
-            //     $(this).parent().parent().next().children(".form-group").addClass("d-none");
-            //     if (target == "") {
-            //         $(this).parent().parent().next().children(".form-group").addClass("d-none");
-            //     }
-            //     if (target == "WebsiteDevelopment" || target == "DynamicWebsite") {
-            //         $(this).parent().parent().next().children(".website-d").removeClass("d-none");
-            //         $('.budget option').remove();
-            //         $('.budget').append(`
-            //         <option value="">Select budget</option>
-            //         <option value="100000above">1,00,000 and above</option>
-            //         <option value="50KTo1L">50,000 - 1,00,000</option>
-            //         <option value="30KTo50K">30,000 - 50,000</option>
-            //         <option value="30000">Less than 30,000</option>`);
-            //     }
-            //     if (target == "MobileApp") {
-            //         $(this).parent().parent().next().children(".website-d").removeClass("d-none");
-            //         $('.budget option').remove();
-            //         $('.budget').append(`
-            //         <option value="">Select budget</option>
-            //         <option value="500000above">5,00,000 and above</option>
-            //         <option value="3LTo5L">3,00,000 - 5,00,000</option>
-            //         <option value="2LTo3L">2,00,000 - 3,00,000</option>`);
-            //     }
-            //     if (target == "eCommerceWebsite") {
-            //         $(this).parent().parent().next().children(".website-d").removeClass("d-none");
-            //         $('.budget option').remove();
-            //         $('.budget').append(`
-            //         <option value="">Select budget</option>
-            //         <option value="300000above">3,00,000 and above</option>
-            //         <option value="1LTo3L">1,00,000 - 3,00,000</option>
-            //         <option value="50KTo1L">50,000 - 1,00,000</option>
-            //         `);
-            //     }
-            //     if (target == "CustomSoftware" || target == "ERPSolution") {
-            //         $(this).parent().parent().next().children(".website-d").removeClass("d-none");
-            //         $('.budget option').remove();
-            //         $('.budget').append(`
-            //         <option value="">Select budget</option>
-            //         <option value="500000above">5,00,000 and above</option>
-            //         <option value="3LTo5L">3,00,000 - 5,00,000</option>
-            //         <option value="1LTo3L">1,00,000 - 3,00,000</option>
-            //         `);
-            //     }
-            //     if (target == "Others") {
-            //         $(this).parent().parent().next().children(".website-d").removeClass("d-none");
-            //         $('.budget option').remove();
-            //         $('.budget').append(`
-            //         <option value="">Select budget</option>
-            //         <option value="500000above">5,00,000 and above</option>
-            //         <option value="3LTo5L">3,00,000 - 5,00,000</option>
-            //         <option value="1LTo3L">1,00,000 - 3,00,000</option>
-            //         <option value="30KTo1L">30,000 - 1,00,000</option>
-            //         `);
-            //     }
-            // });
 
             $("#sendmessage").click(function (e) {
                 e.preventDefault();
@@ -1505,6 +1313,57 @@
                 }
                 var fdata = new FormData()
                 fdata.append("product_name", $("#contactform1").serialize());
+                jQuery.ajax({
+                    type: 'POST',
+                    url: "https://bigappcompany.co.in/demos/cms/contact",
+                    data: fdata,
+                    contentType: false,
+                    processData: false,
+                    success: function (response) {
+                        if (response == 1) {
+                            window.location.href = "thank-you.html";
+                        } else {
+                            alert("Oops! Please Try After Some Time");
+
+                        }
+                    }
+                })
+            });
+            $("#sendmessage2").click(function (e) {
+                e.preventDefault();
+                $(".error-msg").html("");
+                $(".form-group").removeClass("has-error");
+                let getname = $("#text_name1").val();
+                if (getname == "") {
+                    $("#text_name1").focus();
+                    $("#text_name1").parent().addClass("has-error");
+                    $("#text_name1").parent().children(".error-msg").html("Please Enter Name");
+                    return false;
+                }
+                let getmono = $("#text_number1").val();
+                if (getmono == "") {
+                    $("#text_number1").focus();
+                    $("#text_number1").parent().addClass("has-error");
+                    $("#text_number1").parent().children(".error-msg").html(
+                        "Please Enter Mobile Number");
+                    return false;
+                }
+                let getmonolength = getmono.length;
+                if (getmonolength != 10) {
+                    $("#text_number1").select();
+                    $("#text_number1").parent().addClass("has-error");
+                    $("#text_number1").parent().children(".error-msg").html("Not a Valid Number");
+                    return false;
+                }
+                let getmonotype = isNaN(getmono);
+                if (getmonotype == true) {
+                    $("#text_number1").select();
+                    $("#text_number1").parent().addClass("has-error");
+                    $("#text_number1").parent().children(".error-msg").html("Not a Valid Number");
+                    return false;
+                }
+                var fdata = new FormData()
+                fdata.append("product_name", $("#contactform2").serialize());
                 jQuery.ajax({
                     type: 'POST',
                     url: "https://bigappcompany.co.in/demos/cms/contact",
