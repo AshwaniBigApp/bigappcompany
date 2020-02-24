@@ -25,7 +25,20 @@
             z-index: 999999 !important;
         }
     </style>
-    <script async>
+
+    <!--New Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158875363-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-158875363-1');
+    </script>
+
+    <!-- <script async>
         (function (w, d) {
             w.CollectId = "5d89e3cc4841fb0ca3c43291";
             var h = d.head || d.getElementsByTagName("head")[0];
@@ -34,9 +47,10 @@
             s.setAttribute("src", "https://collectcdn.com/launcher.js");
             h.appendChild(s);
         })(window, document);
-    </script>
-    <!-- Global site tag (gtag.js) - Google Ads: 875317984 -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-875317984"></script>
+    </script> -->
+
+    <!-- old Global site tag (gtag.js) - Google Ads: 875317984 -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=AW-875317984"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -45,21 +59,11 @@
         }
         gtag('js', new Date());
         gtag('config', 'AW-875317984');
-    </script>
+    </script> -->
 
     <script async>
         (function (w, d) {
             w.CollectId = "5dfb5cefd66bd24b6228f7f8";
-            var h = d.head || d.getElementsByTagName("head")[0];
-            var s = d.createElement("script");
-            s.setAttribute("type", "text/javascript");
-            s.setAttribute("src", "https://collectcdn.com/launcher.js");
-            h.appendChild(s);
-        })(window, document);
-    </script>
-<script async>
-        (function (w, d) {
-            w.CollectId = "5e317b3e33541d6404e8b2d3";
             var h = d.head || d.getElementsByTagName("head")[0];
             var s = d.createElement("script");
             s.setAttribute("type", "text/javascript");
@@ -951,16 +955,15 @@
     <script src="seo-assets/js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script type="text/javascript">
-       
         $(document).ready(function () {
             $(".navbar-toggler").click(function () {
                 $(this).toggleClass("open");
                 $(".resp-menu").toggleClass("hide");
             });
 
-            $('.close-modal-img').click(function(){
-            $('#openFormModal').modal("toggle");
-        })
+            $('.close-modal-img').click(function () {
+                $('#openFormModal').modal("toggle");
+            })
 
             $(".hide-menu").click(function () {
                 $(".resp-menu").addClass("hide");

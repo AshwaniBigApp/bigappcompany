@@ -3864,6 +3864,31 @@ input[type=number]::-webkit-outer-spin-button {
     font-weight: 400;
 }
 
+.new-bottom-btn{
+    position:absolute;
+    bottom:16px;
+    left:0;right:0;
+    width:100%;
+}
+
+.new-bottom-btn a{
+    height:auto !important;
+    background-color:transparent;
+    border:1px solid #4285f4;
+    color:#4285f4;
+}
+
+.new-lp-block:hover .new-bottom-btn a{
+    background-color:transparent;
+    border:1px solid #fff;
+    color:#fff;
+}
+
+.new-lp-block {
+    cursor:pointer;
+}
+
+
 @media (max-width: 576px) and (min-width: 250px) {
     .customer-detail.p-0 {
         margin-top: 0;
